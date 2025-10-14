@@ -35,12 +35,18 @@
   },
   "name":"Project_Solarian",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},},
+    {"id":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},},
+    {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
+    {"id":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
+    {"id":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
+    {"id":{"name":"scr_MACROS","path":"scripts/scr_MACROS/scr_MACROS.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
+    {"roomId":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
