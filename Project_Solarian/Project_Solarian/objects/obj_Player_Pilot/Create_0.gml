@@ -6,7 +6,6 @@ current_ammo = max_ammo;
 max_oxygen = 100;
 current_oxygen = max_oxygen;
 
-//Movement Stats
-jump_height = 30;
-move_speed = 10;
-
+// Variables used to apply movement to player object
+move_x = 0;
+move_y = 0;
