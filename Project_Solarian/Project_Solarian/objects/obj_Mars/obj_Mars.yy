@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Ship",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_Mars",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Ship",
+  "name":"obj_Mars",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Planets",
+    "path":"folders/Objects/Planets.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_DUMMY_SHIP",
-    "path":"sprites/spr_DUMMY_SHIP/spr_DUMMY_SHIP.yy",
+    "name":"spr_Mars",
+    "path":"sprites/spr_Mars/spr_Mars.yy",
   },
   "spriteMaskId":null,
   "visible":true,
