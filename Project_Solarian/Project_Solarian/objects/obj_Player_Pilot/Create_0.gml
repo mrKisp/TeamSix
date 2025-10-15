@@ -9,3 +9,4 @@ current_oxygen = max_oxygen;
 //Movement Stats
 jump_height = 30;
 move_speed = 10;
+
