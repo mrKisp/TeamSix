@@ -22,13 +22,13 @@
 	These are the percentages of earth's gravity. So if we took GRAV and multiplied it by this percentage, it
 	should be the gravity of the local place. 
 */
-#macro MERCURY_GRAV		37.8
-#macro VENUS_GRAV		90.5
-#macro EARTH_MOON_GRAV	16.5
-#macro MARS_GRAV		37.9
-#macro JUPITER_GRAV		254
-#macro SATURN_GRAV		106.5
-#macro NEPTUNE_GRAV		113.3
-#macro IO_GRAV			18.3
-#macro EUROPA			13.4
-#macro TITAN			13.8
+#macro MERCURY_GRAV		37.8/100
+#macro VENUS_GRAV		90.5/100
+#macro EARTH_MOON_GRAV	16.5/100
+#macro MARS_GRAV		37.9/100
+#macro JUPITER_GRAV		254/100
+#macro SATURN_GRAV		106.5/100
+#macro NEPTUNE_GRAV		113.3/100
+#macro IO_GRAV			18.3/100
+#macro EUROPA			13.4/100
+#macro TITAN			13.8/100
