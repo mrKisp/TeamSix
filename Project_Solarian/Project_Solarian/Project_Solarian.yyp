@@ -15,6 +15,7 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Mechanical","folderPath":"folders/Objects/Mechanical.yy","name":"Mechanical","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Planets","folderPath":"folders/Objects/Planets.yy","name":"Planets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,6 +44,7 @@
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
     {"id":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},},
     {"id":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
+    {"id":{"name":"rm_Mars","path":"rooms/rm_Mars/rm_Mars.yy",},},
     {"id":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
     {"id":{"name":"scr_MACROS","path":"scripts/scr_MACROS/scr_MACROS.yy",},},
     {"id":{"name":"spr_DUMMY_01","path":"sprites/spr_DUMMY_01/spr_DUMMY_01.yy",},},
@@ -56,6 +58,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
     {"roomId":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
+    {"roomId":{"name":"rm_Mars","path":"rooms/rm_Mars/rm_Mars.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
