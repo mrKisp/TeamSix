@@ -3,6 +3,7 @@
   "%Name":"obj_Ship",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Ship",
@@ -25,7 +26,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"move_speed","filters":[],"listItems":[],"multiselect":false,"name":"move_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"move_key_left","filters":[],"listItems":[],"multiselect":false,"name":"move_key_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_left","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"move_key_right","filters":[],"listItems":[],"multiselect":false,"name":"move_key_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_right","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"stop_key","filters":[],"listItems":[],"multiselect":false,"name":"stop_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_down","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"acceleration_key","filters":[],"listItems":[],"multiselect":false,"name":"acceleration_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_up","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"rotation_speed","filters":[],"listItems":[],"multiselect":false,"name":"rotation_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
