@@ -57,6 +57,7 @@
     {"id":{"name":"scr_MACROS","path":"scripts/scr_MACROS/scr_MACROS.yy",},},
     {"id":{"name":"spr_DUMMY_01","path":"sprites/spr_DUMMY_01/spr_DUMMY_01.yy",},},
     {"id":{"name":"spr_DUMMY_SHIP","path":"sprites/spr_DUMMY_SHIP/spr_DUMMY_SHIP.yy",},},
+    {"id":{"name":"spr_Hydrogen","path":"sprites/spr_Hydrogen/spr_Hydrogen.yy",},},
     {"id":{"name":"spr_Iron","path":"sprites/spr_Iron/spr_Iron.yy",},},
     {"id":{"name":"spr_Jupiter","path":"sprites/spr_Jupiter/spr_Jupiter.yy",},},
     {"id":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},},
