@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_DUMMY_SHIP",
-    "path":"sprites/spr_DUMMY_SHIP/spr_DUMMY_SHIP.yy",
+    "name":"spr_Player_Ship",
+    "path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",
   },
   "spriteMaskId":null,
   "visible":true,

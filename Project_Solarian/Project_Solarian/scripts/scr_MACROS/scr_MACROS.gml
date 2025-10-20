@@ -9,8 +9,7 @@
 #macro FRAMERATE 60
 
 /*
-	Did some minor math here. If we set 16 pixels to be equal to 2 meters tall the following is "gravity" 
-	if we assume 60 frames per step, which *should* be able to be hit with how simple the game should be.
+	
 */
 #macro GRAV  78.4
 
