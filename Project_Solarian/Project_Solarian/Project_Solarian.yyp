@@ -42,6 +42,7 @@
   "resources":[
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},},
     {"id":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},},
+    {"id":{"name":"obj_Hydrogen","path":"objects/obj_Hydrogen/obj_Hydrogen.yy",},},
     {"id":{"name":"obj_Iron","path":"objects/obj_Iron/obj_Iron.yy",},},
     {"id":{"name":"obj_Jupiter","path":"objects/obj_Jupiter/obj_Jupiter.yy",},},
     {"id":{"name":"obj_Mars","path":"objects/obj_Mars/obj_Mars.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"spr_Iron","path":"sprites/spr_Iron/spr_Iron.yy",},},
     {"id":{"name":"spr_Jupiter","path":"sprites/spr_Jupiter/spr_Jupiter.yy",},},
     {"id":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},},
+    {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"spr_Player_Ship","path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_test_platform","path":"sprites/spr_test_platform/spr_test_platform.yy",},},
