@@ -23,3 +23,12 @@ if (keyboard_check(stop_key))
 {
 	motion_set(image_angle, 0)
 }
+
+if (image_angle > 180 && image_angle < 359)
+{
+	image_yscale = -1;
+}
+if (image_angle > 0 && image_angle < 179)
+{
+	image_yscale = 1;
+}
