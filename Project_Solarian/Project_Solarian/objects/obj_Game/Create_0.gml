@@ -1,3 +1,6 @@
+//Game Mechanics
+game_paused = false;
+
 //Player Resources
 /*
 	I figure that we will create a series of resources that the player collects across both the

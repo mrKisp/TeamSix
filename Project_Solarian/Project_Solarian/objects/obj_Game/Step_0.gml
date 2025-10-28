@@ -20,7 +20,26 @@ if(keyboard_check(ord("M")) && keyboard_check(ord("A")) && keyboard_check(ord("R
 }
 
 //Adding Easy Escape so that I can quit a playtest faster.
-if (keyboard_check_pressed(vk_escape))
+if(keyboard_check_pressed(vk_backspace))
 {
 	game_end();
+}
+
+//Starting to look at a Collections/Journal menu by pressing Tab.
+//As of right now, it just runs a debug message in the terminal. But the logic *should* work
+//once I get the full logic implemented.
+if(keyboard_check_pressed(vk_tab))
+{
+	if(game_paused = false)
+	{
+		game_paused = true;
+		show_debug_message("Quest Journal Opened");
+		exit;
+	}
+	if(game_paused = true)
+	{
+		game_paused = false;
+		show_debug_message("Quest Journal Closed");
+		exit;
+	}
 }

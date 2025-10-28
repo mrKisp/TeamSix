@@ -64,6 +64,7 @@
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"spr_Player_Ship","path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_Space","path":"sprites/spr_Space/spr_Space.yy",},},
     {"id":{"name":"spr_test_platform","path":"sprites/spr_test_platform/spr_test_platform.yy",},},
     {"id":{"name":"spr_Transition","path":"sprites/spr_Transition/spr_Transition.yy",},},
   ],

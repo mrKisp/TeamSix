@@ -6,22 +6,22 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_437C3F77","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_614FDBD6","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
-    {"name":"inst_1B9B417D","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
-    {"name":"inst_1D9E06C4","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_60C170EE","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_6330E700","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
+    {"name":"inst_5A59AD2B","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
+    {"name":"inst_425D0FD8","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_437C3F77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_437C3F77","objectId":{"name":"obj_Game","path":"objects/obj_Game/obj_Game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"v2","%Name":"inst_614FDBD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_614FDBD6","objectId":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.015625,"scaleY":0.015625,"x":608.0,"y":384.0,},
-        {"$GMRInstance":"v2","%Name":"inst_1B9B417D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B9B417D","objectId":{"name":"obj_Mars","path":"objects/obj_Mars/obj_Mars.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.15,"scaleY":0.15,"x":224.0,"y":320.0,},
-        {"$GMRInstance":"v2","%Name":"inst_1D9E06C4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D9E06C4","objectId":{"name":"obj_Jupiter","path":"objects/obj_Jupiter/obj_Jupiter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25,"scaleY":0.25,"x":896.0,"y":96.0,},
+        {"$GMRInstance":"v2","%Name":"inst_614FDBD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_614FDBD6","objectId":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-0.015,"scaleY":0.015,"x":608.0,"y":384.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Mechanical","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"Planets","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_5A59AD2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A59AD2B","objectId":{"name":"obj_Jupiter","path":"objects/obj_Jupiter/obj_Jupiter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.225,"scaleY":0.2,"x":928.0,"y":128.0,},
+        {"$GMRInstance":"v2","%Name":"inst_425D0FD8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_425D0FD8","objectId":{"name":"obj_Mars","path":"objects/obj_Mars/obj_Mars.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14999999,"scaleY":0.15,"x":224.0,"y":320.0,},
+      ],"layers":[],"name":"Planets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Mechanical","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_60C170EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60C170EE","objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"propertyId":{"name":"destination","path":"objects/obj_Transition/obj_Transition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_Mars",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":4.0,"x":192.0,"y":288.0,},
@@ -29,7 +29,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"propertyId":{"name":"destination","path":"objects/obj_Transition/obj_Transition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_Jupiter",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":7.0000005,"x":832.0,"y":32.0,},
       ],"layers":[],"name":"Mechanical","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_Space","path":"sprites/spr_Space/spr_Space.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_Solar_System",
   "parent":{
@@ -47,10 +47,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":1600,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1366,
+    "Width":2800,
   },
   "sequenceId":null,
   "views":[
