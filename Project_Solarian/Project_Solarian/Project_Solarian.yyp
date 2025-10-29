@@ -52,6 +52,7 @@
     {"id":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},},
     {"id":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
     {"id":{"name":"rm_Jupiter","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},},
+    {"id":{"name":"rm_Main_menu","path":"rooms/rm_Main_menu/rm_Main_menu.yy",},},
     {"id":{"name":"rm_Mars","path":"rooms/rm_Mars/rm_Mars.yy",},},
     {"id":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
     {"id":{"name":"scr_MACROS","path":"scripts/scr_MACROS/scr_MACROS.yy",},},
@@ -75,6 +76,7 @@
     {"roomId":{"name":"rm_Solar_System","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},},
     {"roomId":{"name":"rm_Mars","path":"rooms/rm_Mars/rm_Mars.yy",},},
     {"roomId":{"name":"rm_Jupiter","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},},
+    {"roomId":{"name":"rm_Main_menu","path":"rooms/rm_Main_menu/rm_Main_menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
