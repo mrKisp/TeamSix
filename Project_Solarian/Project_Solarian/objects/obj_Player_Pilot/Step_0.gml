@@ -1,4 +1,4 @@
-var onGround = place_meeting(x, y+1, platform);
+var onGround = place_meeting(x, y+2, platform);
 var jump = keyboard_check_pressed(move_key_jump);
 
 // keyboard_check() returns 1 to whatever key pressed and 0 for no press
@@ -21,14 +21,19 @@ if (onGround)
 	// moves player object up (negative means up)
 	if (jump)
 	{
-		move_y = -jump_height;
+			move_y = -jump_height;	
 	}
-
 }
 // code to keep player cap at this max_fall_speed so it won't accelerate further
 else if (move_y < max_fall_speed)
 {
-	move_y += grav;
+	move_y += grav; // Apply gravity
+	
+	// If player is in the air and using the jump for a jetpack, apply it
+	if (keyboard_check(move_key_jump))
+	{
+		move_y -= jet_pack_strength
+	}
 }
 
 if (place_meeting(x + move_x, y, platform))
