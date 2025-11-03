@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Ship Movement and Angle
 // You can write your code in this editor
 
 //For simplicity (at least for now) adding wrapping so that we don't have to worry about escaping the room.
@@ -30,10 +30,18 @@ if (keyboard_check(move_key_right))
 		image_angle = 360
 	}
 }
+
+if (keyboard_check(move_key_down))
+{
+	// TODO: Fix this speed reduction to gradually slow you down
+	if (move_speed < .1) motion_set(image_angle, 0);
+	else motion_set(image_angle, move_speed*.98);
+}
 // I like being able to stop. So yes, I am adding a stop key.
 //TODO: Make the stop less... instant. A slower stop than just an instant hit the breaks and stop on a dime.
 if (keyboard_check(stop_key))
 {
+	// Currently space to full stop
 	motion_set(image_angle, 0)
 }
 
