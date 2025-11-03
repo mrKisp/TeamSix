@@ -32,6 +32,7 @@ else if (move_y < max_fall_speed)
 	// If player is in the air and using the jump for a jetpack, apply it
 	if (keyboard_check(move_key_jump))
 	{
+		//TODO: Minus Fuel, Then Update obj_Game with UI screen of Fuel Remaining.
 		move_y -= jet_pack_strength
 	}
 }

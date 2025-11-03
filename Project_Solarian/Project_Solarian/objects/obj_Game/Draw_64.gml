@@ -5,6 +5,8 @@
 draw_set_font(fnt_gui);
 
 // Draw the score text in the top-left corner
+
+//TODO: Add Fuel Guage
 draw_set_color(c_green);
 draw_text(16, 16, "INVENTORY");
 
