@@ -1,0 +1,40 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_Mars",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"Mars_autotile_1","closed_edge":false,"name":"Mars_autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[0,14,12,13,2,8,0,3,10,0,6,5,4,15,17,7,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_Mars",
+  "out_columns":4,
+  "out_tilehborder":0,
+  "out_tilevborder":0,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_mars_tileset",
+    "path":"sprites/spr_mars_tileset/spr_mars_tileset.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":48,
+  "tilehsep":3,
+  "tilevsep":3,
+  "tileWidth":48,
+  "tilexoff":24,
+  "tileyoff":15,
+  "tile_count":18,
+}
