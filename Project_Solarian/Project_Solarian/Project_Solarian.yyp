@@ -64,7 +64,6 @@
     {"id":{"name":"obj_Iron","path":"objects/obj_Iron/obj_Iron.yy",},},
     {"id":{"name":"obj_Jupiter","path":"objects/obj_Jupiter/obj_Jupiter.yy",},},
     {"id":{"name":"obj_Mars","path":"objects/obj_Mars/obj_Mars.yy",},},
-    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},},
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
     {"id":{"name":"obj_Sun","path":"objects/obj_Sun/obj_Sun.yy",},},

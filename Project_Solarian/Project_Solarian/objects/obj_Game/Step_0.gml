@@ -30,20 +30,21 @@ if(keyboard_check_pressed(vk_backspace))
 //once I get the full logic implemented.
 if(keyboard_check_pressed(vk_tab))
 {
-	if(obj_pause.pause = false)
+	if(game_paused = false)
 	{
 		game_paused = true;
 		show_debug_message("Quest Journal Opened");
 		show_debug_message("Game is Paused")
-		instance_create_layer(1,1, "Instances", obj_Sun);
+		//instance_create_layer(1,1, "Instances", obj_Sun);
+		
 		exit;
 	}
-	if(obj_pause.pause = true)
+	if(game_paused = true)
 	{
 		game_paused = false;
 		show_debug_message("Quest Journal Closed");
 		show_debug_message("Game is Unpaused");
-		instance_destroy(obj_Sun);
+		//instance_destroy(obj_Sun);
 		exit;
 	}
 }
