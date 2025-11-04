@@ -17,8 +17,10 @@ if (game_paused = false)
 	draw_text(16, 48, "Hydrogen: " + string(hydrogen));
 
 	//fuel bar
-	draw_healthbar(20, 100, 100, 120, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
-
+	if (instance_exists(obj_Player_Pilot))
+	{
+		draw_healthbar(20, 100, 100, 120, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
+	}
 
 	//Objectives
 	draw_set_color(c_green);
