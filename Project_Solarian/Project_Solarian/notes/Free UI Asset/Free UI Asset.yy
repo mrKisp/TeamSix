@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"Free UI Asset",
   "name":"Free UI Asset",
   "parent":{
