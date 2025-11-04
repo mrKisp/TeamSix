@@ -1,8 +1,5 @@
-// Check if object is collected, then make it uninteractible and invisible
-if(isCollected)
-{
-	visible = false
-}
+// Inherit the parent event
+event_inherited();
 
 if(!isCollected) {
 	if(place_meeting(x,y,obj_Player_Pilot)) // If player is touching the iron

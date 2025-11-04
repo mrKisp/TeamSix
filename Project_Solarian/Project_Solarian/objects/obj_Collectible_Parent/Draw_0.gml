@@ -1,4 +1,4 @@
-/// @description Iron Sprite and Collect Tooltip
+/// @description Sprite and Collect Tooltip
 // Draw the iron if it is visible (duh)
 if(visible)
 {

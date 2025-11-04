@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Iron",
+  "%Name":"obj_Collectible_Parent",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Iron",
+  "name":"obj_Collectible_Parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectibles",
     "path":"folders/Objects/Collectibles.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Collectible_Parent",
-    "path":"objects/obj_Collectible_Parent/obj_Collectible_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_Iron",
-    "path":"sprites/spr_Iron/spr_Iron.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

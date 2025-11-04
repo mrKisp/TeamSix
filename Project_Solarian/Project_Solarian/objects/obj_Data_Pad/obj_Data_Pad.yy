@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Iron",
+  "%Name":"obj_Data_Pad",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Iron",
+  "name":"obj_Data_Pad",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectibles",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Iron",
-    "path":"sprites/spr_Iron/spr_Iron.yy",
+    "name":"spr_data_pad",
+    "path":"sprites/spr_data_pad/spr_data_pad.yy",
   },
   "spriteMaskId":null,
   "visible":true,
