@@ -1,8 +1,8 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_Mars",
+  "%Name":"ts_Jupiter",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"auto_Mars","closed_edge":false,"name":"auto_Mars","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[8,19,17,1,5,12,6,11,3,20,10,2,4,14,16,0,],},
+    {"$GMAutoTileSet":"","%Name":"auto_Jupiter","closed_edge":false,"name":"auto_Jupiter","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[8,19,17,1,5,12,6,11,3,20,10,2,4,14,16,0,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":5,
@@ -10,7 +10,7 @@
     "TileCompressedData":[-25,0,],
     "TileDataFormat":1,
   },
-  "name":"ts_Mars",
+  "name":"ts_Jupiter",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -21,8 +21,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_mars_tileset",
-    "path":"sprites/spr_mars_tileset/spr_mars_tileset.yy",
+    "name":"spr_jupiter_tileset",
+    "path":"sprites/spr_jupiter_tileset/spr_jupiter_tileset.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

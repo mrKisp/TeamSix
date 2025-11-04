@@ -28,3 +28,6 @@ min_fuel_drain = false;
 
 max_hp = false;
 max_oxygen = false;
+
+//To disable UI before we need it.
+layer_set_visible("UI Folder", false);

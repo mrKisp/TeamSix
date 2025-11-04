@@ -18,6 +18,12 @@ if (onGround)
 {
 	// Sprite logic TODO: if (move_x != 0)
 	move_y = 0;
+	if (current_fuel < max_fuel)
+	{
+		//Temporary Regenerating Fuel for Testing
+		current_fuel += 1;
+		current_fuel = clamp(current_fuel,0,100);
+	}
 	// moves player object up (negative means up)
 	if (jump)
 	{
@@ -30,10 +36,13 @@ else if (move_y < max_fall_speed)
 	move_y += grav; // Apply gravity
 	
 	// If player is in the air and using the jump for a jetpack, apply it
-	if (keyboard_check(move_key_jump))
+	if (keyboard_check(move_key_jump) && current_fuel > 0)
 	{
 		//TODO: Minus Fuel, Then Update obj_Game with UI screen of Fuel Remaining.
-		move_y -= jet_pack_strength
+		//This should be a basic fuel drain mechanic. But I will be honest I don't know if 
+		//It really will work well or not.
+		current_fuel -= fuel_drain;
+		move_y -= jet_pack_strength;
 	}
 }
 

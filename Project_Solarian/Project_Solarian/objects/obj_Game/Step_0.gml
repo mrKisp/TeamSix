@@ -35,7 +35,8 @@ if(keyboard_check_pressed(vk_tab))
 		game_paused = true;
 		show_debug_message("Quest Journal Opened");
 		show_debug_message("Game is Paused")
-		//instance_create_layer(1,1, "Instances", obj_Sun);
+		layer_set_visible("UI_Boxes", true);
+		layer_set_visible("UI_Item", true);
 		
 		exit;
 	}
@@ -44,7 +45,8 @@ if(keyboard_check_pressed(vk_tab))
 		game_paused = false;
 		show_debug_message("Quest Journal Closed");
 		show_debug_message("Game is Unpaused");
-		//instance_destroy(obj_Sun);
+		layer_set_visible("UI_Boxes", false);
+		layer_set_visible("UI_Item", false);
 		exit;
 	}
 }
