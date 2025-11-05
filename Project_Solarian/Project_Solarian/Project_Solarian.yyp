@@ -54,6 +54,7 @@
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},},
     {"id":{"name":"fnt_logo","path":"fonts/fnt_logo/fnt_logo.yy",},},
     {"id":{"name":"Free UI Asset","path":"notes/Free UI Asset/Free UI Asset.yy",},},
+    {"id":{"name":"obj_Beacon","path":"objects/obj_Beacon/obj_Beacon.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},},
