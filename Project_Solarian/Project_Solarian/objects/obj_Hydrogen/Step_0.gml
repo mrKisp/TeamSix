@@ -9,7 +9,8 @@ if(!isCollected) {
 		if(keyboard_check(ord("E"))) // Check if player has pressed collection key
 		{
 			isCollected = true
-			obj_Game.hydrogen++	// Increase hydrogen count if more hydrogen is collected
+			global.items.hydrogen++	// Increase hydrogen count if more hydrogen is collected
+			global.codex.add_item(name, 1, sprite);
 			showInteract = false // Get rid of tooltip
 		}
 	}

@@ -1,5 +1,5 @@
 //Game Mechanics
-game_paused = false;
+global.game_paused = false;
 
 //Player Resources
 /*
@@ -7,12 +7,27 @@ game_paused = false;
 	"on ground" and "in space" sections. So to solve the problem of figuring out who has what,
 	I figure that we can use the obj_Game to manage all the resources. 
 */
-iron = 0;
-hydrogen = 0;
-methane = 0;
-sulfer = 0;
-water = 0;
-titanium = 0;
+
+global.codex = new Inventory();
+
+// this is a struct, kind of similar to map
+// access them by items.name
+// example: items.datapad -> return the number associated with datapad
+global.items = 
+{
+	datapad : 0,
+	iron : 0,
+	hydrogen : 0,
+	methane : 0,
+	sulfer : 0,
+	water : 0,
+	titanium : 0.
+}
+
+// update this value accordingly as you add more items
+global.items_size = 7
+
+global.codex_needs_update = false;
 
 //Upgrades
 /*
@@ -22,12 +37,12 @@ titanium = 0;
 	
 	Can also cover other upgrades. Like a piercing ammo upgrade, warp upgrades, or whatever. 
 */
-max_fuel_upgrade = false;
-max_ammo_upgrade = false;
-min_fuel_drain = false;
+global.max_fuel_upgrade = false;
+global.max_ammo_upgrade = false;
+global.min_fuel_drain = false;
 
-max_hp = false;
-max_oxygen = false;
+global.max_hp = false;
+global.max_oxygen = false;
 
 //To disable UI before we need it.
 layer_set_visible("UI Folder", false);

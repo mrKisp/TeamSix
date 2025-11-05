@@ -8,7 +8,8 @@ if(!isCollected) {
 		if(keyboard_check(ord("E"))) // Check if player has pressed collection key
 		{
 			isCollected = true
-			obj_Game.iron++	// Increase iron count if more iron is collected
+			global.items.iron++	// Increase iron count if more iron is collected
+			global.codex.add_item(name, 1, sprite);
 			showInteract = false // Get rid of tooltip
 		}
 	}

@@ -33,7 +33,7 @@
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_56D8E2A8","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_56D8E2A8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":11.3529415,"scaleY":1.9411764,"spriteId":{"name":"spr_scifi_inventory01","path":"sprites/spr_scifi_inventory01/spr_scifi_inventory01.yy",},"x":768.0,"y":576.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_531200FE","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_531200FE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":18.142857,"scaleY":21.571428,"spriteId":{"name":"spr_scifi_inventory01_box_back","path":"sprites/spr_scifi_inventory01_box_back/spr_scifi_inventory01_box_back.yy",},"x":64.0,"y":64.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_168B9546","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_168B9546","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":18.142857,"scaleY":21.571428,"spriteId":{"name":"spr_scifi_inventory01_box_back","path":"sprites/spr_scifi_inventory01_box_back/spr_scifi_inventory01_box_back.yy",},"x":672.0,"y":64.0,},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Boxes","nodeColour":4286204146,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Boxes","nodeColour":4286204146,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
   "locked":false,
   "name":"RoomUI",
@@ -44,5 +44,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":true,
+  "visible":false,
 }

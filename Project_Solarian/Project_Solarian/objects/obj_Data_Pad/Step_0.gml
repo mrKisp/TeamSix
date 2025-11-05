@@ -9,6 +9,8 @@ if(!isCollected) {
 		{
 			isCollected = true
 			// Add some sort of journal entry when picking up a data pad
+			global.items.datapad++;
+			global.codex.add_item(name, 1, sprite);
 			showInteract = false // Get rid of tooltip
 		}
 	}

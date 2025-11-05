@@ -28,25 +28,40 @@ if(keyboard_check_pressed(vk_backspace))
 //Starting to look at a Collections/Journal menu by pressing Tab.
 //As of right now, it just runs a debug message in the terminal. But the logic *should* work
 //once I get the full logic implemented.
-if(keyboard_check_pressed(vk_tab))
-{
-	if(game_paused = false)
-	{
-		game_paused = true;
-		show_debug_message("Quest Journal Opened");
-		show_debug_message("Game is Paused")
-		layer_set_visible("UI_Boxes", true);
-		layer_set_visible("UI_Item", true);
+//if(keyboard_check_pressed(vk_tab))
+//{
+//	if(game_paused = false)
+//	{
+//		game_paused = true;
+//		show_debug_message("Quest Journal Opened");
+//		show_debug_message("Game is Paused")
+//		layer_set_visible("UI_Boxes", true);
+//		layer_set_visible("UI_Item", true);
 		
-		exit;
-	}
-	if(game_paused = true)
-	{
-		game_paused = false;
-		show_debug_message("Quest Journal Closed");
-		show_debug_message("Game is Unpaused");
-		layer_set_visible("UI_Boxes", false);
-		layer_set_visible("UI_Item", false);
-		exit;
-	}
-}
+//		exit;
+//	}
+//	if(game_paused = true)
+//	{
+//		game_paused = false;
+//		show_debug_message("Quest Journal Closed");
+//		show_debug_message("Game is Unpaused");
+//		layer_set_visible("UI_Boxes", false);
+//		layer_set_visible("UI_Item", false);
+//		exit;
+//	}
+//}
+
+//if (keyboard_check_pressed(vk_tab))
+//{
+//	if (!game_paused) {
+//		game_paused = true;
+//		with (obj_InventoryParent) {	
+//			visible = true;
+//		}
+//	} else {
+//		game_paused = false;
+//		with (obj_InventoryParent) {	
+//			visible = false;
+//		}
+//	}
+//}
