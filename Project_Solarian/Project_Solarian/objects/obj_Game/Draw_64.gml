@@ -40,3 +40,18 @@ if (global.game_paused = false)
 	draw_text(room_width-150, 48, "Hydrogen: 5");
 }
 
+// Draw a simple win message
+if (global.items.iron >= 2 && global.items.hydrogen >= 5)
+{
+	draw_set_font(fnt_logo);
+	
+	draw_set_color(c_green);
+	draw_set_valign(fa_middle);
+	draw_set_halign(fa_center);
+	draw_text(300, 300, "ALL GOALS COMPLETE! GOOD JOB VOYAGER!");
+	draw_set_valign(fa_top);
+	draw_set_halign(fa_left);
+	draw_set_colour(c_white);
+	draw_set_font(fnt_gui);
+}
+

@@ -7,3 +7,6 @@ movement = 0;
 
 max_ammo = 100;
 current_ammo = max_ammo;
+
+// Make the ship persistent to make it stay in the same spot you left it
+// persistent = true;

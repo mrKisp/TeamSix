@@ -15,8 +15,18 @@ draw_set_font(fnt_description);
 draw_text(description_box_right_x, description_box_right_y, right_text_1);
 
 // shitty way to do this jesus
+// Draw goal in green for complete goal
+if (global.items.iron >= 2) draw_set_colour(c_green);
+	else draw_set_colour(c_white);
+	
 draw_text(description_box_right_x, description_box_right_y + string_height(right_text_1) + 16, right_text_2);
+
+if (global.items.hydrogen >= 5) draw_set_colour(c_green);
+	else draw_set_colour(c_white);
+	
 draw_text(description_box_right_x, description_box_right_y + string_height(right_text_1) + string_height(right_text_2) + 16, right_text_3);
+
+draw_set_colour(c_white); // Make sure draw color is back to default
 
 copy_codex = global.codex.get();
 var itembox_base_x = 160;

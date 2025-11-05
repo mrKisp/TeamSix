@@ -34,4 +34,9 @@ if(show_ship_interact)
     // Draw tooltip text (adjust coordinates as needed)
     draw_set_colour(c_green);
     draw_text(x + 15, y + 15, ship_i_message);
+	draw_set_color(c_white);
+
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+
 }
