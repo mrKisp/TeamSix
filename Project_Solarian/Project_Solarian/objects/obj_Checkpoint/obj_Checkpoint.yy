@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hazard",
+  "%Name":"obj_Checkpoint",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hazard",
+  "name":"obj_Checkpoint",
   "overriddenProperties":[],
   "parent":{
     "name":"Mechanical",
@@ -25,15 +25,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hazard",
-    "path":"sprites/spr_hazard/spr_hazard.yy",
+    "name":"spr_Checkpoint",
+    "path":"sprites/spr_Checkpoint/spr_Checkpoint.yy",
   },
   "spriteMaskId":null,
   "visible":true,

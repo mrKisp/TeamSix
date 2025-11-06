@@ -38,7 +38,7 @@ right_text_2 =
 	"Mission 1: Collect 2 Iron";
 	
 right_text_3 = 
-	"Missin 2: Collect 5 Hydrogen";
+	"Mission 2: Collect 5 Hydrogen";
 	
 datapad_text =
 	"Datapad, kind of like a guidebook \n" +

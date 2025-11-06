@@ -25,6 +25,16 @@ if(keyboard_check_pressed(vk_backspace))
 	game_end();
 }
 
+//Game Over
+if(instance_exists(obj_Player_Pilot))
+{
+	if(obj_Player_Pilot.current_hp <= 0)
+	{
+		room_goto(rm_Game_Over)
+	}
+}
+
+
 //Starting to look at a Collections/Journal menu by pressing Tab.
 //As of right now, it just runs a debug message in the terminal. But the logic *should* work
 //once I get the full logic implemented.
