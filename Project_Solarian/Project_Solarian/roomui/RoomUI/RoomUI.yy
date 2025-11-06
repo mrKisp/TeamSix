@@ -2,6 +2,28 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4291555912,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+    {"$GMRUILayer":"v1","%Name":"UI_Tutorial_1","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+            {"$GMRInstance":"v2","%Name":"inst_2E545D54","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E545D54","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"properties":[
+                {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"propertyId":{"name":"text_for_display","path":"objects/obj_Textbox/obj_Textbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press E to Gather up Materials",},
+              ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.8125,"scaleY":2.71875,"x":-315.0,"y":-110.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Tutorial_1","nodeColour":4293347570,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"UI_Tutorial_2","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+            {"$GMRInstance":"v2","%Name":"inst_5F2A12FB","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F2A12FB","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"properties":[
+                {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"propertyId":{"name":"text_for_display","path":"objects/obj_Textbox/obj_Textbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press Tab to access Codex",},
+              ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.8125,"scaleY":2.71875,"x":345.0,"y":-87.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Tutorial_2","nodeColour":4293347570,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"UI_Tutorial_3","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+            {"$GMRInstance":"v2","%Name":"inst_7E6ECC9B","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E6ECC9B","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"properties":[
+                {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"propertyId":{"name":"text_for_display","path":"objects/obj_Textbox/obj_Textbox.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Use Jetpack to Reach the Exit Portal",},
+              ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.8125,"scaleY":2.71875,"x":191.0,"y":68.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":32.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4294068329,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Tutorial_3","nodeColour":4293347570,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UI_Item","alignItems":2,"children":[
         {"$GMRInstance":"v2","%Name":"inst_62BDA4A4","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62BDA4A4","objectId":{"name":"obj_Hydrogen","path":"objects/obj_Hydrogen/obj_Hydrogen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.796875,"scaleY":0.796875,"x":94.0,"y":192.0,},
         {"$GMRInstance":"v2","%Name":"inst_55AEEE9E","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55AEEE9E","objectId":{"name":"obj_Iron","path":"objects/obj_Iron/obj_Iron.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.765625,"scaleY":0.734375,"x":96.0,"y":96.0,},
@@ -33,7 +55,7 @@
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_56D8E2A8","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_56D8E2A8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":11.3529415,"scaleY":1.9411764,"spriteId":{"name":"spr_scifi_inventory01","path":"sprites/spr_scifi_inventory01/spr_scifi_inventory01.yy",},"x":768.0,"y":576.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_531200FE","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_531200FE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":18.142857,"scaleY":21.571428,"spriteId":{"name":"spr_scifi_inventory01_box_back","path":"sprites/spr_scifi_inventory01_box_back/spr_scifi_inventory01_box_back.yy",},"x":64.0,"y":64.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_168B9546","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_168B9546","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":18.142857,"scaleY":21.571428,"spriteId":{"name":"spr_scifi_inventory01_box_back","path":"sprites/spr_scifi_inventory01_box_back/spr_scifi_inventory01_box_back.yy",},"x":672.0,"y":64.0,},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Boxes","nodeColour":4286204146,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Boxes","nodeColour":4286204146,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
   "locked":false,
   "name":"RoomUI",
@@ -44,5 +66,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":false,
+  "visible":true,
 }
