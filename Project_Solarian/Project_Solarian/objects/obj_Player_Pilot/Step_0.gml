@@ -1,4 +1,4 @@
-var onGround = place_meeting(x, y+2, platform);
+onGround = place_meeting(x, y+2, platform);
 var jump = keyboard_check_pressed(move_key_jump);
 
 // keyboard_check() returns 1 to whatever key pressed and 0 for no press
@@ -43,6 +43,11 @@ else if (move_y < max_fall_speed)
 		//It really will work well or not.
 		current_fuel -= fuel_drain;
 		move_y -= jet_pack_strength;
+		instance_create_layer(x, y, "FX_Layer", obj_Jetpack_Effect)
+	}
+	else
+	{
+		instance_destroy(obj_Jetpack_Effect);	
 	}
 }
 

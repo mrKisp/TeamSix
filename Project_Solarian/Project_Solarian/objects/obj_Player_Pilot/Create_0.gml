@@ -11,6 +11,7 @@ current_fuel = max_fuel;
 // Variables used to apply movement to player object
 move_x = 0;
 move_y = 0;
+onGround = 0;
 
 //Checkpoint Variables
 checkpoint_x = 0;

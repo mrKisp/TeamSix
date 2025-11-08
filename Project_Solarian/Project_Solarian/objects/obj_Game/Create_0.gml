@@ -1,5 +1,6 @@
 //Game Mechanics
 global.game_paused = false;
+randomize();
 
 //Player Resources
 /*
