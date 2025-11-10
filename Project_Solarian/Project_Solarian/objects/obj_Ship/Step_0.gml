@@ -6,7 +6,7 @@ move_wrap(true, true, 0)
 
 //Added this so that the image rotation stays within the one circle. Technically could go really high/low
 //But now it should remain in a single circle.
-image_angle = clamp(image_angle,0,360)
+image_angle = clamp(image_angle,0,360);
 
 //basic forward motion from the Arcade tutorial from class.
 if (keyboard_check(acceleration_key))
@@ -33,9 +33,10 @@ if (keyboard_check(move_key_right))
 
 if (keyboard_check(move_key_down))
 {
-	// TODO: Fix this speed reduction to gradually slow you down
-	if (move_speed < .1) motion_set(image_angle, 0);
-	else motion_set(image_angle, move_speed*.98);
+	if (speed > 0)
+	{
+		speed -= move_speed;
+	}
 }
 // I like being able to stop. So yes, I am adding a stop key.
 //TODO: Make the stop less... instant. A slower stop than just an instant hit the breaks and stop on a dime.
