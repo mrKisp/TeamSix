@@ -12,6 +12,9 @@ current_fuel = max_fuel;
 move_x = 0;
 move_y = 0;
 onGround = 0;
+right_input = false;
+left_input = false;
+jump_input = false;
 
 //Checkpoint Variables
 checkpoint_x = 0;
@@ -19,3 +22,7 @@ checkpoint_y = 0;
 
 //FX Variables
 fx_on = false;
+
+// Animation logic
+image_speed = 0;
+walk_speed = 3.5;

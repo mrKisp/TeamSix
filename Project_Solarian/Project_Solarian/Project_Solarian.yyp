@@ -113,6 +113,8 @@
     {"id":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},},
     {"id":{"name":"spr_Menu_Button","path":"sprites/spr_Menu_Button/spr_Menu_Button.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
+    {"id":{"name":"spr_player_anim_sheet_L","path":"sprites/spr_player_anim_sheet_L/spr_player_anim_sheet_L.yy",},},
+    {"id":{"name":"spr_player_anim_sheet_R","path":"sprites/spr_player_anim_sheet_R/spr_player_anim_sheet_R.yy",},},
     {"id":{"name":"spr_Player_Ship","path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_scifi_inventory01_box_back","path":"sprites/spr_scifi_inventory01_box_back/spr_scifi_inventory01_box_back.yy",},},

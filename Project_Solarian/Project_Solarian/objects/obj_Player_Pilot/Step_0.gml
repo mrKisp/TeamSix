@@ -1,12 +1,40 @@
-onGround = place_meeting(x, y+2, platform);
-var jump = keyboard_check_pressed(move_key_jump);
+onGround = place_meeting(x, y+3, platform);
+
+// Decide which key is jumping (if any)
+var jump = 0;
+if (keyboard_check_pressed(move_key_jump))
+	jump = keyboard_check_pressed(move_key_jump);
+if (keyboard_check_pressed(alt_move_key_jump))
+	jump = keyboard_check_pressed(alt_move_key_jump);
+	
+// Jetpack alt key logic
+var jpack = 0;
+if (keyboard_check(move_key_jump))
+	jpack = keyboard_check(move_key_jump);
+if (keyboard_check(alt_move_key_jump))
+	jpack = keyboard_check(alt_move_key_jump);
+
+// Decide which key is moving right (if any)
+if (keyboard_check(move_key_right))
+	right_input = (keyboard_check(move_key_right));
+if (keyboard_check(alt_move_key_right))
+	right_input = keyboard_check(alt_move_key_right);
+
+// Decide which key is moving left (if any)
+if (keyboard_check(move_key_left))
+	left_input = (keyboard_check(move_key_left));
+if (keyboard_check(alt_move_key_left))
+	left_input = keyboard_check(alt_move_key_left);
 
 // keyboard_check() returns 1 to whatever key pressed and 0 for no press
 // so if right key pressed: 1 - 0 = 1 (go right)
 // left key pressed: 0 - 1 = -1 (go left)
 // and both key pressed: 1 - 1 = 0 (no movement)
-move_x = keyboard_check(move_key_right) - keyboard_check(move_key_left);
+move_x = right_input - left_input;
 
+// Reset the values for the next step so player doesn't lock up
+right_input = 0;
+left_input = 0;
 // move_speed is a constant in obj_Player_Pilot under "Create"
 move_x *= move_speed;
 
@@ -16,7 +44,16 @@ move_x *= move_speed;
 // configured in the editor
 if (onGround)
 {
-	// Sprite logic TODO: if (move_x != 0)
+	// Sprite animation logic
+	if (move_x != 0)
+	{
+		image_speed = move_x / 3;
+		if (move_x > 0)
+			sprite_index = spr_player_anim_sheet_R; 
+		if (move_x < 0)
+			sprite_index = spr_player_anim_sheet_L; 
+	}
+	else sprite_index = spr_player;
 	move_y = 0;
 	if (current_fuel < max_fuel)
 	{
@@ -36,7 +73,7 @@ else if (move_y < max_fall_speed)
 	move_y += grav; // Apply gravity
 	
 	// If player is in the air and using the jump for a jetpack, apply it
-	if (keyboard_check(move_key_jump) && current_fuel > 0)
+	if (jpack && current_fuel > 0)
 	{
 		//TODO: Minus Fuel, Then Update obj_Game with UI screen of Fuel Remaining.
 		//This should be a basic fuel drain mechanic. But I will be honest I don't know if 
