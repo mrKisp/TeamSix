@@ -16,3 +16,6 @@ onGround = 0;
 //Checkpoint Variables
 checkpoint_x = 0;
 checkpoint_y = 0;
+
+//FX Variables
+fx_on = false;

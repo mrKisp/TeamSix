@@ -43,11 +43,23 @@ else if (move_y < max_fall_speed)
 		//It really will work well or not.
 		current_fuel -= fuel_drain;
 		move_y -= jet_pack_strength;
-		instance_create_layer(x, y, "FX_Layer", obj_Jetpack_Effect)
+		//A quick flag to only spawn one object instead of 60 per frame.
+		fx_on = true;
+		if(fx_on)
+		{
+			instance_create_layer(x, y, "FX_Layer", obj_Jetpack_Effect)
+			fx_on = false;
+		}
 	}
 	else
 	{
-		instance_destroy(obj_Jetpack_Effect);	
+		//It is showing the debug message that the object is being destroyed, so it is *probably*
+		//Good and wont' cause a memory leak?
+		//show_debug_message("Exhaust Destroyed in obj_Pilot");
+		if(instance_exists(obj_Jetpack_Effect))
+		{
+			instance_destroy(obj_Jetpack_Effect);	
+		}
 	}
 }
 

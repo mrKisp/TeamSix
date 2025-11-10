@@ -25,6 +25,9 @@ if(instance_exists(obj_Player_Pilot))
 		{
 			part_type_destroy(jetpack);
 			part_system_destroy(jetpack_system);
+			//debug isn't showing "exhaust destroyed" here. It does show it in obj_pilot so it hopefully
+			//Isn't going to cause a memory leak. I don't know why this doesn't trigger though.
+			//show_debug_message("Exhaust Destroyed in obj_Jetpack_Exhaust");
 			instance_destroy();
 		}
 	}
