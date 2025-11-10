@@ -1,4 +1,5 @@
 onGround = place_meeting(x, y+3, platform);
+image_speed = 1;
 
 // Decide which key is jumping (if any)
 var jump = 0;
@@ -47,7 +48,7 @@ if (onGround)
 	// Sprite animation logic
 	if (move_x != 0)
 	{
-		image_speed = move_x / 3;
+
 		if (move_x > 0)
 			sprite_index = spr_player_anim_sheet_R; 
 		if (move_x < 0)
