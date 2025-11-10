@@ -7,6 +7,7 @@ move_wrap(true, true, 0)
 //Added this so that the image rotation stays within the one circle. Technically could go really high/low
 //But now it should remain in a single circle.
 image_angle = clamp(image_angle,0,360);
+speed = clamp(speed, 0, max_speed);
 
 //basic forward motion from the Arcade tutorial from class.
 if (keyboard_check(acceleration_key))
@@ -46,6 +47,12 @@ if (keyboard_check(stop_key))
 	motion_set(image_angle, 0)
 }
 
+// boost not done
+if (keyboard_check_pressed(boost_key))
+{
+	motion_add(image_angle, boost_speed);
+}
+
 //Adding this so the ship isn't upside down.
 //It should flip the image as we look screen left.
 if (image_angle > 90 && image_angle < 270)
@@ -56,3 +63,5 @@ if (image_angle < 90 || image_angle > 271)
 {
 	image_yscale = abs(image_yscale);
 }
+
+show_debug_message(speed);
