@@ -122,6 +122,7 @@
     {"id":{"name":"spr_scifi_inventory01_box_select02","path":"sprites/spr_scifi_inventory01_box_select02/spr_scifi_inventory01_box_select02.yy",},},
     {"id":{"name":"spr_scifi_inventory01_box","path":"sprites/spr_scifi_inventory01_box/spr_scifi_inventory01_box.yy",},},
     {"id":{"name":"spr_scifi_inventory01","path":"sprites/spr_scifi_inventory01/spr_scifi_inventory01.yy",},},
+    {"id":{"name":"spr_Ship_anim","path":"sprites/spr_Ship_anim/spr_Ship_anim.yy",},},
     {"id":{"name":"spr_Space","path":"sprites/spr_Space/spr_Space.yy",},},
     {"id":{"name":"spr_sun","path":"sprites/spr_sun/spr_sun.yy",},},
     {"id":{"name":"spr_test_platform","path":"sprites/spr_test_platform/spr_test_platform.yy",},},
