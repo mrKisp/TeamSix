@@ -29,6 +29,12 @@ if (global.game_paused = false)
 		draw_healthbar(20, 100, 100, 120, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
 		draw_healthbar(20, 120, 100, 140, obj_Player_Pilot.current_hp,c_black,c_grey,c_red,0,true,true)
 	}
+	
+	if (instance_exists(obj_Ship))
+	{
+		draw_healthbar(20, 100, 100, 120, obj_Ship.current_fuel,c_black,c_yellow,c_green,0,true,true)
+		draw_healthbar(20, 120, 100, 140, obj_Ship.current_hp,c_black,c_grey,c_red,0,true,true)
+	}
 
 	//Objectives
 	draw_set_color(c_green);

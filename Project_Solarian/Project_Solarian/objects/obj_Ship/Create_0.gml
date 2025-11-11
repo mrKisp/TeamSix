@@ -9,8 +9,8 @@ current_ammo = max_ammo;
 
 //Damage and Immunity
 immortal = false;
-max_health = 100;
-current_health = max_health;
+max_health = max_attain_health;
+current_hp = max_health;
 
 
 // Make the ship persistent to make it stay in the same spot you left it

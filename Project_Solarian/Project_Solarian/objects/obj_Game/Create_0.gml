@@ -47,3 +47,9 @@ global.max_oxygen = false;
 
 //To disable UI before we need it.
 layer_set_visible("UI Folder", false);
+
+//Holding Spot to save some variables
+player_hp = 100;
+ship_hp = 100;
+ship_x = 0;
+ship_y = 0;
