@@ -113,3 +113,8 @@ if (place_meeting(x, y + move_y, platform))
 
 // this function is the code to apply movement
 move_and_collide(move_x, move_y, platform);
+
+if(immortal == true)
+{
+	image_alpha = .75;
+}

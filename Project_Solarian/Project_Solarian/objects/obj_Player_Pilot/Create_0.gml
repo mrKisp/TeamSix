@@ -7,6 +7,7 @@ max_oxygen = 100;
 current_oxygen = max_oxygen;
 max_fuel = 100;
 current_fuel = max_fuel;
+immortal = false;
 
 // Variables used to apply movement to player object
 move_x = 0;

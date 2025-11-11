@@ -65,3 +65,10 @@ if (image_angle < 90 || image_angle > 271)
 }
 
 show_debug_message(speed);
+
+if(immortal == true)
+{
+	image_alpha = .75
+	//With 60 frames per second, this should give the player 1 second to avoid damage caused by collision.
+	alarm[0] = immortal_window;
+}

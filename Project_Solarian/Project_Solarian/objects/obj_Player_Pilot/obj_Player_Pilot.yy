@@ -4,6 +4,8 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_Asteroid","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_Player_Pilot",
@@ -40,6 +42,7 @@
     {"$GMObjectProperty":"v1","%Name":"alt_move_key_jump","filters":[],"listItems":[],"multiselect":false,"name":"alt_move_key_jump","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"ord(\"W\")","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"jet_pack_strength","filters":[],"listItems":[],"multiselect":false,"name":"jet_pack_strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"fuel_drain","filters":[],"listItems":[],"multiselect":false,"name":"fuel_drain","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"immortal_window","filters":[],"listItems":[],"multiselect":false,"name":"immortal_window","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
