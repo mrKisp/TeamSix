@@ -8,8 +8,8 @@
   "name":"obj_hazard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mechanical",
-    "path":"folders/Objects/Mechanical.yy",
+    "name":"Hazards",
+    "path":"folders/Objects/Mechanical/Hazards.yy",
   },
   "parentObjectId":null,
   "persistent":false,
