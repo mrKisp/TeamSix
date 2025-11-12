@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Planets",
-    "path":"folders/Sprites/Planets.yy",
+    "name":"Backgrounds",
+    "path":"folders/Sprites/Planets/Backgrounds.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

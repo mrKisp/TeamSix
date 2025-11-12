@@ -1,5 +1,6 @@
 /// @description Ship Movement and Angle
 // You can write your code in this editor
+image_speed = 1;
 
 //For simplicity (at least for now) adding wrapping so that we don't have to worry about escaping the room.
 move_wrap(true, true, 0)
@@ -13,7 +14,9 @@ speed = clamp(speed, 0, max_speed);
 if (keyboard_check(acceleration_key))
 {
 	motion_add(image_angle, move_speed);
+	sprite_index = spr_Ship_anim;
 }
+else sprite_index = spr_Player_Ship;
 //Basic rotation from Arcade Class Tutorial
 if (keyboard_check(move_key_left))
 {

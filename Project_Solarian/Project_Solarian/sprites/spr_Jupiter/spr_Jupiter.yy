@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Planets",
-    "path":"folders/Sprites/Planets.yy",
+    "name":"Planet Icons",
+    "path":"folders/Sprites/Planets/Planet Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

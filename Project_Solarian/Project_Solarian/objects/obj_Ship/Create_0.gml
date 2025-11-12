@@ -15,3 +15,5 @@ current_hp = max_health;
 
 // Make the ship persistent to make it stay in the same spot you left it
 // persistent = true;
+
+image_speed = 0;
