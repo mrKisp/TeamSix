@@ -78,3 +78,10 @@ if(obj_Ship.current_hp <= 0)
 {
 	room_goto(rm_Game_Over);
 }
+
+// Bullet shooting logic
+if (mouse_check_button_pressed(shoot_button))
+{
+	instance_create_layer(x, y, "Instances", obj_bullet);	
+}
+
