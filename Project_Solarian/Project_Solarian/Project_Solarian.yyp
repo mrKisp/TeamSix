@@ -82,6 +82,7 @@
     {"id":{"name":"obj_Mars","path":"objects/obj_Mars/obj_Mars.yy",},},
     {"id":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},},
     {"id":{"name":"obj_Restart","path":"objects/obj_Restart/obj_Restart.yy",},},
+    {"id":{"name":"obj_Room_Flip","path":"objects/obj_Room_Flip/obj_Room_Flip.yy",},},
     {"id":{"name":"obj_Saturn","path":"objects/obj_Saturn/obj_Saturn.yy",},},
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
     {"id":{"name":"obj_Sun","path":"objects/obj_Sun/obj_Sun.yy",},},
