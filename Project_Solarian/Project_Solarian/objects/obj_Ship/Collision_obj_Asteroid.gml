@@ -1,4 +1,4 @@
-if(immortal == false)
+if(immortal == false && other.sprite_index == spr_asteroid) // Check that the asteroid is not already blown up and that you aren't immortal
 {
 	immortal = true;
 	current_hp -= other.damage_ship;

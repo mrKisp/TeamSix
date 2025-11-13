@@ -35,6 +35,7 @@
     {"$GMObjectProperty":"v1","%Name":"is_planetside","filters":[],"listItems":[],"multiselect":false,"name":"is_planetside","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"rotation_rate","filters":[],"listItems":[],"multiselect":false,"name":"rotation_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"asteroid_speed","filters":[],"listItems":[],"multiselect":false,"name":"asteroid_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"heals","filters":[],"listItems":[],"multiselect":false,"name":"heals","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
