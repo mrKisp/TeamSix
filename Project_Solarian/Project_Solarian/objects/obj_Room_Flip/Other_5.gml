@@ -1,1 +1,1 @@
-camera_set_view_angle(view_camera[1],0);
+camera_set_view_angle(cam,0);
