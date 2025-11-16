@@ -85,6 +85,7 @@
     {"id":{"name":"obj_Room_Flip","path":"objects/obj_Room_Flip/obj_Room_Flip.yy",},},
     {"id":{"name":"obj_Saturn","path":"objects/obj_Saturn/obj_Saturn.yy",},},
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
+    {"id":{"name":"obj_Space_Station","path":"objects/obj_Space_Station/obj_Space_Station.yy",},},
     {"id":{"name":"obj_Sun","path":"objects/obj_Sun/obj_Sun.yy",},},
     {"id":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},},
     {"id":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},},
