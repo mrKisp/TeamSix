@@ -211,7 +211,7 @@ StateDash = function()
 		hsp = 0;
 		state = StateFree;
 	}
-	
+
 }
 
 state = StateFree;
