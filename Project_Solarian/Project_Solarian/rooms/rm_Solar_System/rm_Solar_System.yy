@@ -111,6 +111,7 @@
     {"name":"inst_9BB7CB8","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_12F01515","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_297A03A2","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
+    {"name":"inst_65F4642C","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -377,7 +378,10 @@
         {"$GMRInstance":"v2","%Name":"inst_12F01515","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12F01515","objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"propertyId":{"name":"destination","path":"objects/obj_Transition/obj_Transition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_Venus",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5156245,"scaleY":4.5156245,"x":1184.0,"y":2210.0,},
-      ],"layers":[],"name":"Mechanical","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+        {"$GMRInstance":"v2","%Name":"inst_65F4642C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65F4642C","objectId":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"W and S to Accelerate/Decelerate,\\n A and D to turn,\\n Click Mouse to Shoot!",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":1536.0,},
+      ],"layers":[],"name":"Mechanical","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_Space","path":"sprites/spr_Space/spr_Space.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_Solar_System",
