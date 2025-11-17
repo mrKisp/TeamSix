@@ -7,6 +7,9 @@
 	here.
 */
 #macro FRAMERATE 60
+//Part of a Tutorial. Might not be needed. 
+#macro RESOLUTION_W 1366
+#macro RESOLUTION_H 768
 
 /*
 	

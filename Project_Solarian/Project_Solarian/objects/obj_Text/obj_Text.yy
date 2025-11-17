@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Textbox",
+  "%Name":"obj_Text",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Textbox",
+  "name":"obj_Text",
   "overriddenProperties":[],
   "parent":{
-    "name":"TextBoxes",
-    "path":"folders/Objects/Mechanical/TextBoxes.yy",
+    "name":"Mechanical",
+    "path":"folders/Objects/Mechanical.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,15 +28,12 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"text_for_display","filters":[],"listItems":[],"multiselect":false,"name":"text_for_display","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"message_displayed","filters":[],"listItems":[],"multiselect":false,"name":"message_displayed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Default Message Text\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_inventory_description_box",
-    "path":"sprites/spr_inventory_description_box/spr_inventory_description_box.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

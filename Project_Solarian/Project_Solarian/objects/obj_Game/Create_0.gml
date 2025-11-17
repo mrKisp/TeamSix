@@ -33,6 +33,9 @@ global.items_size = 8
 
 global.codex_needs_update = false;
 
+//Text
+global.text_Speed = 0.75;
+
 //Upgrades
 /*
 	This could be handled with the ship or player pilot object, but I think it's possible that we can use 
