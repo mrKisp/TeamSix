@@ -1,0 +1,41 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_Saturn",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"auto_Mars","closed_edge":false,"name":"auto_Mars","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[8,19,17,1,5,12,6,11,3,20,10,2,4,14,16,0,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":5,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-25,0,],
+    "TileDataFormat":1,
+  },
+  "name":"ts_Saturn",
+  "out_columns":5,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_saturn_tileset",
+    "path":"sprites/spr_saturn_tileset/spr_saturn_tileset.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":48,
+  "tilehsep":3,
+  "tilevsep":3,
+  "tileWidth":48,
+  "tilexoff":24,
+  "tileyoff":15,
+  "tile_count":21,
+}
