@@ -11,14 +11,14 @@ image_angle = clamp(image_angle,0,360);
 speed = clamp(speed, 0, max_speed);
 
 //basic forward motion from the Arcade tutorial from class.
-if (keyboard_check(acceleration_key))
+if (keyboard_check(acceleration_key) || keyboard_check(alt_move_key_acc))
 {
 	motion_add(image_angle, move_speed);
 	sprite_index = spr_Ship_anim;
 }
 else sprite_index = spr_Player_Ship;
 //Basic rotation from Arcade Class Tutorial
-if (keyboard_check(move_key_left))
+if (keyboard_check(move_key_left) || keyboard_check(alt_move_key_left))
 {
 	image_angle += rotation_speed;
 	if(image_angle > 360)
@@ -26,7 +26,7 @@ if (keyboard_check(move_key_left))
 		image_angle = 0
 	}
 }
-if (keyboard_check(move_key_right))
+if (keyboard_check(move_key_right) || keyboard_check(alt_move_key_right))
 {
 	image_angle -= rotation_speed;
 	if(image_angle < 0)
@@ -35,7 +35,7 @@ if (keyboard_check(move_key_right))
 	}
 }
 
-if (keyboard_check(move_key_down))
+if (keyboard_check(move_key_down) || keyboard_check(alt_move_key_slow))
 {
 	if (speed > 0)
 	{
@@ -53,7 +53,13 @@ if (keyboard_check(stop_key))
 // boost not done
 if (keyboard_check_pressed(boost_key))
 {
-	motion_add(image_angle, boost_speed);
+	if(room == rm_Solar_System)
+	{
+		if(global.items.hydrogen > 0) {
+			motion_add(image_angle, boost_speed);
+			global.items.hydrogen--;
+		}
+	}
 }
 
 //Adding this so the ship isn't upside down.

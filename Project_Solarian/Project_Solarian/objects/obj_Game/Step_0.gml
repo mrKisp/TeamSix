@@ -19,6 +19,12 @@ if(keyboard_check(ord("M")) && keyboard_check(ord("A")) && keyboard_check(ord("R
 	room_goto(rm_Mars);
 }
 
+//Temp Shortcut to take us to Solar System
+if(keyboard_check(ord("J")) && keyboard_check(ord("U")) && keyboard_check(ord("P")))
+{
+	room_goto(rm_Jupiter);
+}
+
 //Adding Easy Escape so that I can quit a playtest faster.
 if(keyboard_check_pressed(vk_backspace))
 {

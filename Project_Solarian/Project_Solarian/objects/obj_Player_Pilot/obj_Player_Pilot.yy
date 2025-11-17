@@ -44,6 +44,8 @@
     {"$GMObjectProperty":"v1","%Name":"jet_pack_strength","filters":[],"listItems":[],"multiselect":false,"name":"jet_pack_strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"fuel_drain","filters":[],"listItems":[],"multiselect":false,"name":"fuel_drain","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"immortal_window","filters":[],"listItems":[],"multiselect":false,"name":"immortal_window","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"dash_button","filters":[],"listItems":[],"multiselect":false,"name":"dash_button","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_shift","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"dash_strength","filters":[],"listItems":[],"multiselect":false,"name":"dash_strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -19,14 +19,15 @@ global.items =
 	datapad : 0,
 	iron : 0,
 	hydrogen : 0,
+	helium : 0,
 	methane : 0,
-	sulfer : 0,
-	water : 0,
+	sulfur : 0,
+	oxygen : 0,
 	titanium : 0.
 }
 
 // update this value accordingly as you add more items
-global.items_size = 7
+global.items_size = 8
 
 global.codex_needs_update = false;
 

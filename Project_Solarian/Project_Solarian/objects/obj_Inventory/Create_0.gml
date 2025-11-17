@@ -60,3 +60,33 @@ iron_text =
 	"These iron compounds suggest a long history of \n" + 
 	"volcanic activity and interactions with water, \n" + 
 	"making Mars a key target in the search for ancient life.";
+	
+helium_text = 
+	"Saturn is abundant in helium, found throughout its \n" +
+	"deep atmosphere where the element forms a major part \n" +
+	"of the planet's composition. \n" +
+	"Over time, helium droplets slowly rain downward \n" +
+	"through Saturn's dense clouds, releasing heat and \n" +
+	"shaping the planet’s powerful weather systems. \n" +
+	"This unique helium cycle makes Saturn one of the most \n" +
+	"valuable sources of the element needed for the station.";
+titanium_text = 
+	"Titanium is a rare and valuable material scattered \n" +
+	"across several planets, including Saturn, Mars, and \n" +
+	"Venus. \n" +
+	"Instead of forming naturally in large deposits, most \n" +
+	"titanium arrives on these worlds carried by ancient \n" +
+	"meteorites that crashed into their surfaces. \n" +
+	"These meteorite fragments contain resilient titanium \n" +
+	"alloys forged in the intense heat of stellar events, \n" +
+	"making the metal both lightweight and incredibly \n" +
+	"durable—an essential resource wherever it is found.";
+sulfur_text = 
+	"Sulfur is a common and striking element on Venus, \n" +
+	"where its thick atmosphere and volcanic landscape \n" +
+	"produce vast amounts of sulfuric compounds. \n" +
+	"These materials contribute to the planet’s dense \n" +
+	"clouds and harsh yellow tint. \n" +
+	"Trace amounts of sulfur can also be found on Mars \n" +
+	"and Earth, typically formed through volcanic activity \n" +
+	"or ancient geological processes.";

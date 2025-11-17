@@ -54,6 +54,15 @@ for (var i = 0; i < array_length(copy_codex); i++)
 		case "iron":
 			draw_sprite(spr_Iron, image_index, draw_x, draw_y);
 			break;
+		case "helium":
+			draw_sprite(spr_helium, image_index, draw_x, draw_y);
+			break;
+		case "titanium":
+			draw_sprite(spr_Titanium, image_index, draw_x, draw_y);
+			break;
+		case "sulfur":
+			draw_sprite(spr_Sulfur, image_index, draw_x, draw_y);
+			break;
 	}
 	draw_set_font(fnt_count);
 	draw_text(draw_x + spacing_x - 4, draw_y + (spacing_x * 2), item.quantity);
@@ -82,6 +91,15 @@ if (has_clicked_item_one && is_struct(selected_item))
 			break;
 		case "iron":
 			draw_text(description_box_left_x, description_box_left_y, iron_text);
+			break;
+		case "helium":
+			draw_text(description_box_left_x, description_box_left_y, helium_text);
+			break;
+		case "titanium":
+			draw_text(description_box_left_x, description_box_left_y, titanium_text);
+			break;
+		case "sulfur":
+			draw_text(description_box_left_x, description_box_left_y, sulfur_text);
 			break;
 	}
 }
