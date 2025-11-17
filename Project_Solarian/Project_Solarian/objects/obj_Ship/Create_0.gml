@@ -20,3 +20,6 @@ image_speed = 0;
 
 boost_used_bool = false;
 boost_used_ms = 0;
+
+ship_last_x = 0;
+ship_last_y = 0;

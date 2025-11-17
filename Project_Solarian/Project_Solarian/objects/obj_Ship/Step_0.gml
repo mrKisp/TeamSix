@@ -13,7 +13,7 @@ image_angle = clamp(image_angle,0,360);
 // in gamemaker 'Step' is ran after the instance is created, and
 // this will change depending on our game speed
 // we set is to 60 frames per second, so that means every second
-// 'Steo' is ran 60 times 
+// 'Step' is ran 60 times 
 // Meaning if you want the boost duration longer simply increase the max_boost_duration number
 if (boost_used_ms >= max_boost_duration) {
 	boost_used_bool = false;
@@ -67,7 +67,7 @@ if (keyboard_check(stop_key))
 }
 
 // boost not done
-if (keyboard_check_pressed(boost_key) && !(dash_used_bool))
+if (keyboard_check_pressed(boost_key) && !(boost_used_bool))
 {
 	if(room == rm_Solar_System)
 	{

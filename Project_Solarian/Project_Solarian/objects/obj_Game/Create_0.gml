@@ -52,5 +52,7 @@ layer_set_visible("UI Folder", false);
 //Holding Spot to save some variables
 player_hp = 100;
 ship_hp = 100;
-ship_x = 0;
-ship_y = 0;
+
+// default x and y when user finishes gym
+ship_x = 1664;
+ship_y = 1536;
