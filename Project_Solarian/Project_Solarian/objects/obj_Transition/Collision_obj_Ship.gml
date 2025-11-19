@@ -1,6 +1,6 @@
 //Simple Transition. When player ship is within the bounding box, if they press E it will 
 //Need to get a UI to pop up to let the ship know it can land. 
-if(keyboard_check_pressed(ord("E")))
+if(keyboard_check_pressed(ord("E")) && !instance_exists(obj_Text))
 {
 	// saves x and y before going to room
 	obj_Game.ship_x = obj_Ship.x;

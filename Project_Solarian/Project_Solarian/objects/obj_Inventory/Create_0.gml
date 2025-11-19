@@ -19,6 +19,7 @@ has_clicked_item_one = false;
 // top left item box = 64, 64
 // right side big box = 640, 160
 
+
 // im really bad at storytelling lol
 // TODO: make it dynamically update for every datapad you pick up
 right_text_1 = 

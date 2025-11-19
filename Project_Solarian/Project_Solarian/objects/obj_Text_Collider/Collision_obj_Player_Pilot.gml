@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
 if(!instance_exists(obj_Text) && has_been_read == false)
 {
 	//Creates a Message witha target message.
@@ -11,4 +9,5 @@ if(!instance_exists(obj_Text) && has_been_read == false)
 	//Updates text box with message.
 	obj_Text.message_displayed = new_message;
 	alarm[0] = 60
+	alarm[1] = 120;
 }

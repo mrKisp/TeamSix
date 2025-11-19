@@ -18,3 +18,5 @@ message_displayed = "Default Message Text";
 //Tutorial has a lot of different box types and uses frames to make it work. This just needs to be 
 //Zero for us. 
 background = 0;
+
+alarm[0] = 600;

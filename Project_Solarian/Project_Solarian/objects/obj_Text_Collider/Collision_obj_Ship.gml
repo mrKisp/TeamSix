@@ -7,5 +7,6 @@ if(!instance_exists(obj_Text) && has_been_read == false)
 	//New_Message is an Instance by instance we change in the room. 
 	//Updates text box with message.
 	obj_Text.message_displayed = new_message;
-	alarm[0] = 60
+	alarm[0] = 60;
+	alarm[1] = 120;
 }
