@@ -5,12 +5,6 @@
 if (global.game_paused = false)
 {
 	draw_set_font(fnt_gui);
-	
-	draw_set_color(c_white);
-	draw_text(16, 16, "CONTROLS");
-	draw_text(16, 32, "Arrow Key to Move");
-	draw_text(16, 48, "E to Pick Up Item");
-	draw_text(16, 64, "Tab to Open Tablet"); // lol think of better names later
 
 	// TODO: move item count, mission in tablet
 	// Draw the score text in the top-left corner
@@ -36,15 +30,6 @@ if (global.game_paused = false)
 		draw_healthbar(20, 120, 100, 140, obj_Ship.current_hp,c_black,c_grey,c_red,0,true,true)
 	}
 
-	//Objectives
-	draw_set_color(c_green);
-	draw_text(room_width-150, 16, "GOALS");
-
-	draw_set_color(c_silver);
-	draw_text(room_width-150, 32, "Iron: 2");
-
-	draw_set_color(c_white);
-	draw_text(room_width-150, 48, "Hydrogen: 5");
 }
 
 // Draw a simple win message
