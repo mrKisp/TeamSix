@@ -61,3 +61,4 @@ ship_hp = 100;
 // default x and y when user finishes gym
 ship_x = 1664;
 ship_y = 1536;
+
