@@ -62,3 +62,10 @@ ship_hp = 100;
 ship_x = 1664;
 ship_y = 1536;
 
+ // In the Create Event
+    enum SPACE_STATION_STATE {
+        PHASE_1,
+        PHASE_2,
+        PHASE_3
+    }
+current_state = SPACE_STATION_STATE.PHASE_1;

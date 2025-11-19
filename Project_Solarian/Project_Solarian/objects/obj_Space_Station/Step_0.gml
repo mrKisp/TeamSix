@@ -26,6 +26,7 @@ switch (Space_Stage)
 					image_blend = c_red;
 					show_debug_message(global.items.iron);
 					show_debug_message(global.items.hydrogen);
+					obj_Game.current_state = SPACE_STATION_STATE.PHASE_2;
 					
 				}
 			}
@@ -52,6 +53,7 @@ switch (Space_Stage)
 					Space_Stage = 2;
 					//Replace with next Image Index
 					image_blend = c_blue;
+					obj_Game.current_state = SPACE_STATION_STATE.PHASE_3
 				}
 			}
 		}

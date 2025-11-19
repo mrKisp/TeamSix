@@ -94,6 +94,7 @@
     {"id":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},},
     {"id":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},},
     {"id":{"name":"obj_Text","path":"objects/obj_Text/obj_Text.yy",},},
+    {"id":{"name":"obj_Textbox_GUI","path":"objects/obj_Textbox_GUI/obj_Textbox_GUI.yy",},},
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},
     {"id":{"name":"obj_Titanium","path":"objects/obj_Titanium/obj_Titanium.yy",},},
     {"id":{"name":"obj_Title","path":"objects/obj_Title/obj_Title.yy",},},

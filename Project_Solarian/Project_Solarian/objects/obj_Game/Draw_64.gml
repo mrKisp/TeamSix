@@ -20,14 +20,14 @@ if (global.game_paused = false)
 	//fuel bar
 	if (instance_exists(obj_Player_Pilot))
 	{
-		draw_healthbar(20, 100, 100, 120, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
-		draw_healthbar(20, 120, 100, 140, obj_Player_Pilot.current_hp,c_black,c_grey,c_red,0,true,true)
+		draw_healthbar(20, 50, 100, 70, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
+		draw_healthbar(20, 70, 100, 90, obj_Player_Pilot.current_hp,c_black,c_grey,c_red,0,true,true)
 	}
 	
 	if (instance_exists(obj_Ship))
 	{
-		draw_healthbar(20, 100, 100, 120, obj_Ship.current_fuel,c_black,c_yellow,c_green,0,true,true)
-		draw_healthbar(20, 120, 100, 140, obj_Ship.current_hp,c_black,c_grey,c_red,0,true,true)
+		draw_healthbar(20, 50, 100, 70, obj_Ship.current_fuel,c_black,c_yellow,c_green,0,true,true)
+		draw_healthbar(20, 70, 100, 90, obj_Ship.current_hp,c_black,c_grey,c_red,0,true,true)
 	}
 
 }
