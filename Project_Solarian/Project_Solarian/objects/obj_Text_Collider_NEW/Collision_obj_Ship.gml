@@ -21,15 +21,15 @@ if(!instance_exists(obj_Text) && has_been_read == false)
 		break;
 		
 		case 2:
-			global.tutorial_1 = true;
+			global.tutorial_2 = true;
 		break;
 			
 		case 3:
-			global.tutorial_2 = true;
+			global.tutorial_3 = true;
 		break;
 
 		case 4:
-			global.tutorial_3 = true;
+			global.tutorial_4 = true;
 		break;
 
 		case 5:
