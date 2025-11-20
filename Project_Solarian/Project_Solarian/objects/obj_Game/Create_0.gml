@@ -69,3 +69,19 @@ ship_y = 1536;
         PHASE_3
     }
 current_state = SPACE_STATION_STATE.PHASE_1;
+
+inventory_layer_name = "UI_Inventory";
+
+open_inventory = function()
+{
+	if (global.game_paused)
+	{
+		instance_deactivate_all(true);
+		layer_set_visible(inventory_layer_name, true);
+	}
+	else
+	{
+		instance_activate_all();
+		layer_set_visible(inventory_layer_name, false);
+	}
+}

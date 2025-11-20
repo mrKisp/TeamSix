@@ -46,25 +46,8 @@ if(instance_exists(obj_Player_Pilot))
 //once I get the full logic implemented.
 if(keyboard_check_pressed(vk_tab))
 {
-	if(global.game_paused = false)
-	{
-		global.game_paused = true;
-		show_debug_message("Quest Journal Opened");
-		show_debug_message("Game is Paused")
-		layer_set_visible("UI_Boxes", true);
-		layer_set_visible("UI_Item", true);
-		
-		exit;
-	}
-	if(global.game_paused = true)
-	{
-		global.game_paused = false;
-		show_debug_message("Quest Journal Closed");
-		show_debug_message("Game is Unpaused");
-		layer_set_visible("UI_Boxes", false);
-		layer_set_visible("UI_Item", false);
-		exit;
-	}
+	global.game_paused = !global.game_paused;
+	open_inventory();
 }
 
 /*
