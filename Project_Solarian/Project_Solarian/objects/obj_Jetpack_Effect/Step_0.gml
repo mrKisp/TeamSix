@@ -3,7 +3,7 @@ if(instance_exists(obj_Player_Pilot))
 	//Sets the jetpack effect to the x,y of the player (plus or minus 5 pixels)
 	x = obj_Player_Pilot.x + random_range(-5, 5);
 	y = obj_Player_Pilot.y + random_range(-5, 5);
-	show_debug_message("Exhaust Created");
+	//show_debug_message("Exhaust Created");
 	
 	//Limits the Particle Creation to counter % 3 frames. 
 	var counter = 0

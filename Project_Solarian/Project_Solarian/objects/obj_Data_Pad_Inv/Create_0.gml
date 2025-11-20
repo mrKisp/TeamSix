@@ -1,4 +1,4 @@
 event_inherited();
 name = "Datapad";
 planet = "Earth";
-description = "write your X description here";
+description = "Leftover data pads from previous explorers. Contains important details.";

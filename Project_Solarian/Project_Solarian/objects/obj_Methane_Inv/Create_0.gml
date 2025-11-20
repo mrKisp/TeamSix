@@ -1,4 +1,4 @@
 event_inherited();
 name = "Methane";
 planet = "???";
-description = "write your X description here";
+description = "Methane absorbs red Light, which gives it a blueish color.";

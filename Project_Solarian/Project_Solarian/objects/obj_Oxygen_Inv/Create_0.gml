@@ -1,4 +1,4 @@
 event_inherited();
 name = "Oxygen";
 planet = "???";
-description = "write your X description here";
+description = "Oxygen is the third most abundant element and is highly reactive in atomic form.";

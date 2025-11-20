@@ -1,4 +1,4 @@
 event_inherited();
 name = "Hydrogen";
 planet = "Jupiter";
-description = "write your jupiter decription here"; // modify here no need to worry about newlines
+description = "The Universal Building Block, it is the main component of Stars."; // modify here no need to worry about newlines

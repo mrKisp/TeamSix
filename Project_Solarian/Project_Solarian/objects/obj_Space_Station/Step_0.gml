@@ -23,7 +23,7 @@ switch (Space_Stage)
 					Stage_One = false;
 					Space_Stage = 1;
 					//Replace with Image index
-					image_blend = c_red;
+					image_index = 0;
 					show_debug_message(global.items.iron);
 					show_debug_message(global.items.hydrogen);
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_2;
@@ -52,7 +52,7 @@ switch (Space_Stage)
 					Stage_Two = false;
 					Space_Stage = 2;
 					//Replace with next Image Index
-					image_blend = c_blue;
+					image_index = 2;
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_3
 				}
 			}
@@ -78,7 +78,9 @@ switch (Space_Stage)
 					Stage_Three = false;
 					Space_Stage = 3;
 					//Replace with next Image Index
-					image_blend = c_yellow;
+					image_index = 4;
+					alarm[0] = 600;
+					obj_Ship.immortal = true;
 				}
 			}
 		}

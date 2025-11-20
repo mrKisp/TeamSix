@@ -95,7 +95,6 @@
     {"name":"inst_1F85A8A9","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},
     {"name":"inst_4057BD01","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},
     {"name":"inst_790A5DF3","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},
-    {"name":"inst_34603D21","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -195,9 +194,6 @@
         {"$GMRInstance":"v2","%Name":"inst_440F10DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_440F10DA","objectId":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":2176.0,"y":1024.0,},
         {"$GMRInstance":"v2","%Name":"inst_26785F06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26785F06","objectId":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.5,"x":2112.0,"y":960.0,},
         {"$GMRInstance":"v2","%Name":"inst_7DEACABB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DEACABB","objectId":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.0,"x":2144.0,"y":864.0,},
-        {"$GMRInstance":"v2","%Name":"inst_34603D21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34603D21","objectId":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider/obj_Text_Collider.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press SHIFT to dash! \\n Dashing uses HYDROGEN you've collected\\n to cross large gaps by propelling\\n you in whatever direction you're going towards!",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5,"scaleY":4.5,"x":192.0,"y":960.0,},
       ],"layers":[],"name":"Colliders","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":56,"TileCompressedData":[
           -116,0,-37,-2147483648,-18,0,-44,-2147483648,-12,0,-30,-2147483648,-4,0,-16,-2147483648,-6,0,-29,-2147483648,

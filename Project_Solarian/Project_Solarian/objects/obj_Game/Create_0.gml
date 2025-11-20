@@ -85,3 +85,17 @@ open_inventory = function()
 		layer_set_visible(inventory_layer_name, false);
 	}
 }
+
+//Global Tutorial Text Variables
+global.default_var = false;
+global.tutorial_1 = false;
+global.tutorial_2 = false;
+global.tutorial_3 = false;
+global.tutorial_ship = false;
+global.tutorial_space_Station = false;
+global.tutorial_Asteroid_belt = false;
+global.tutorial_Venus = false;
+global.tutorial_Mars = false;
+global.tutorial_Jupiter = false;
+global.tutorial_Saturn = false;
+global.tutorial_Uranus = false;

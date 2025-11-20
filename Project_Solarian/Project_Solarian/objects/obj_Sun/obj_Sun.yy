@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sun",
-    "path":"sprites/spr_sun/spr_sun.yy",
+    "name":"spr_sun_02",
+    "path":"sprites/spr_sun_02/spr_sun_02.yy",
   },
   "spriteMaskId":null,
   "visible":true,

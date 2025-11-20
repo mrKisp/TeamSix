@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-has_been_read = true;
+
+has_been_read = false;
+

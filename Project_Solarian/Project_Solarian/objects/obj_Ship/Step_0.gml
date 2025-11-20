@@ -90,9 +90,9 @@ if (image_angle < 90 || image_angle > 271)
 	image_yscale = abs(image_yscale);
 }
 
-show_debug_message("Current speed: " + string(speed));
+//show_debug_message("Current speed: " + string(speed));
 
-if(immortal == true)
+if(immortal == true && obj_Game.current_state != SPACE_STATION_STATE.PHASE_3)
 {
 	image_alpha = .75
 }

@@ -1,4 +1,4 @@
 event_inherited();
 name = "Iron";
 planet = "Mars";
-description = "write your mars description here";
+description = "Iron is the most Stable Element. When Stars die, Iron is sscattered into Space.";

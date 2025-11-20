@@ -1,4 +1,4 @@
 event_inherited();
 name = "Titanium";
 planet = "In Asteroids";
-description = "write your X description here";
+description = "Ideal for Spacecraft, it has a high strength to weight ratio.";
