@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_data_pad",
-    "path":"sprites/spr_data_pad/spr_data_pad.yy",
+    "name":"spr_datapad",
+    "path":"sprites/spr_datapad/spr_datapad.yy",
   },
   "spriteMaskId":null,
   "visible":true,

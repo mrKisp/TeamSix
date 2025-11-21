@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Hydrogen",
-    "path":"sprites/spr_Hydrogen/spr_Hydrogen.yy",
+    "name":"spr_hydrogen",
+    "path":"sprites/spr_hydrogen/spr_hydrogen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

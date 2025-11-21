@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Iron",
-    "path":"sprites/spr_Iron/spr_Iron.yy",
+    "name":"spr_iron",
+    "path":"sprites/spr_iron/spr_iron.yy",
   },
   "spriteMaskId":null,
   "visible":true,

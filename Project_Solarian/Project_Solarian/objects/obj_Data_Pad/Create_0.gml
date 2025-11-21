@@ -1,4 +1,4 @@
 event_inherited();
 
 name = "datapad";
-sprite = spr_data_pad;
+sprite = spr_datapad;

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Sulfur",
-    "path":"sprites/spr_Sulfur/spr_Sulfur.yy",
+    "name":"spr_sulfur",
+    "path":"sprites/spr_sulfur/spr_sulfur.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,4 @@
 event_inherited();
 
 name = "hydrogen";
-sprite = spr_Hydrogen;
+sprite = spr_hydrogen;

@@ -13,20 +13,40 @@ randomize();
 
 global.codex = new Inventory();
 
+init_items = function()
+{
+	return {
+		datapad : 0,
+		iron : 0,
+		hydrogen : 0,
+		helium : 0,
+		methane : 0,
+		sulfur : 0,
+		oxygen : 0,
+		titanium : 0
+	}
+};
+
+picked_up_first_time = function()
+{
+	return {
+		datapad : false,
+		iron : false,
+		hydrogen : false,
+		helium : false,
+		methane : false,
+		sulfur : false,
+		oxygen : false,
+		titanium : false
+	}
+}
+
 // this is a struct, kind of similar to map
 // access them by items.name
 // example: items.datapad -> return the number associated with datapad
-global.items = 
-{
-	datapad : 0,
-	iron : 0,
-	hydrogen : 0,
-	helium : 0,
-	methane : 0,
-	sulfur : 0,
-	oxygen : 0,
-	titanium : 0.
-}
+global.items = init_items();
+
+global.has_picked_up = picked_up_first_time();
 
 // update this value accordingly as you add more items
 global.items_size = 8
@@ -71,6 +91,7 @@ ship_y = 1536;
 current_state = SPACE_STATION_STATE.PHASE_1;
 
 inventory_layer_name = "UI_Inventory";
+item_notify_layer_name = "UI_ItemNotify";
 
 open_inventory = function()
 {

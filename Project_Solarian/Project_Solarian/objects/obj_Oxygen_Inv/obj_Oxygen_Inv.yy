@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Oxygen",
-    "path":"sprites/spr_Oxygen/spr_Oxygen.yy",
+    "name":"spr_oxygen",
+    "path":"sprites/spr_oxygen/spr_oxygen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

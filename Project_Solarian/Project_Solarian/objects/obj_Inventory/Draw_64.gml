@@ -46,22 +46,22 @@ for (var i = 0; i < array_length(copy_codex); i++)
 	{
 		// adjust case if needed, when theres more material
 		case "datapad":
-			draw_sprite(spr_data_pad, image_index, draw_x, draw_y);
+			draw_sprite(spr_datapad, image_index, draw_x, draw_y);
 			break;
 		case "hydrogen":
-			draw_sprite(spr_Hydrogen, image_index, draw_x, draw_y);
+			draw_sprite(spr_hydrogen, image_index, draw_x, draw_y);
 			break;
 		case "iron":
-			draw_sprite(spr_Iron, image_index, draw_x, draw_y);
+			draw_sprite(spr_iron, image_index, draw_x, draw_y);
 			break;
 		case "helium":
 			draw_sprite(spr_helium, image_index, draw_x, draw_y);
 			break;
 		case "titanium":
-			draw_sprite(spr_Titanium, image_index, draw_x, draw_y);
+			draw_sprite(spr_titanium, image_index, draw_x, draw_y);
 			break;
 		case "sulfur":
-			draw_sprite(spr_Sulfur, image_index, draw_x, draw_y);
+			draw_sprite(spr_sulfur, image_index, draw_x, draw_y);
 			break;
 	}
 	draw_set_font(fnt_count);

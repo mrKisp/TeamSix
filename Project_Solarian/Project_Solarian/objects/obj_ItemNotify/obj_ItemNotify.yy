@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Titanium_Inv",
+  "%Name":"obj_ItemNotify",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Titanium_Inv",
+  "name":"obj_ItemNotify",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
     "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Parent_Inv",
-    "path":"objects/obj_Parent_Inv/obj_Parent_Inv.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_titanium",
-    "path":"sprites/spr_titanium/spr_titanium.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

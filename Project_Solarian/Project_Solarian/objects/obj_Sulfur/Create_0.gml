@@ -2,4 +2,4 @@
 event_inherited();
 
 name = "sulfur";
-sprite = spr_Sulfur;
+sprite = spr_sulfur;

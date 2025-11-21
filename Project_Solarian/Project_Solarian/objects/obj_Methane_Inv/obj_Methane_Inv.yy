@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Methane",
-    "path":"sprites/spr_Methane/spr_Methane.yy",
+    "name":"spr_methane",
+    "path":"sprites/spr_methane/spr_methane.yy",
   },
   "spriteMaskId":null,
   "visible":true,

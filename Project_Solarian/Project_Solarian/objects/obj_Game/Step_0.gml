@@ -36,6 +36,8 @@ if(instance_exists(obj_Player_Pilot))
 {
 	if(obj_Player_Pilot.current_hp <= 0)
 	{
+		// reset item count so inventory UI is updated
+		global.items = init_items();
 		room_goto(rm_Game_Over)
 	}
 }

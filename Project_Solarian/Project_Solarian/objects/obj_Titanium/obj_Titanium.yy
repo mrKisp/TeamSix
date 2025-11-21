@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Titanium",
-    "path":"sprites/spr_Titanium/spr_Titanium.yy",
+    "name":"spr_titanium",
+    "path":"sprites/spr_titanium/spr_titanium.yy",
   },
   "spriteMaskId":null,
   "visible":true,
