@@ -25,6 +25,7 @@ switch (Space_Stage)
 					Space_Stage = 1;
 					//Replace with Image index
 					image_index = 0;
+					draw_self()
 					show_debug_message(global.items.iron);
 					show_debug_message(global.items.hydrogen);
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_2;
@@ -40,7 +41,7 @@ switch (Space_Stage)
 			//Replace Values with the Goals for Stage 2
 			if(global.items.iron>=10 && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
 			{
-				//Stage One Ready
+				//Stage two Ready
 				Stage_Two = true;
 			}
 			if(place_meeting(x, y, obj_Ship) && Stage_Two == true)
@@ -57,6 +58,7 @@ switch (Space_Stage)
 					Space_Stage = 2;
 					//Replace with next Image Index
 					image_index = 2;
+					draw_self();
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_3
 				}
 			}
@@ -69,7 +71,7 @@ switch (Space_Stage)
 			//Replace with goals for Stage 3
 			if(global.items.hydrogen >= 25 && global.items.helium >= 15 && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
 			{
-				//Stage One Ready
+				//Stage Three Ready
 				Stage_Three = true;
 			}
 			if(place_meeting(x, y, obj_Ship) && Stage_Three == true)
@@ -87,6 +89,7 @@ switch (Space_Stage)
 					Space_Stage = 3;
 					//Replace with next Image Index
 					image_index = 4;
+					draw_self();
 					alarm[0] = 600;
 					obj_Ship.immortal = true;
 				}

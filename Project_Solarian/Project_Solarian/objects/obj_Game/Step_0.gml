@@ -49,6 +49,7 @@ if(instance_exists(obj_Player_Pilot))
 }
 
 
+
 //Starting to look at a Collections/Journal menu by pressing Tab.
 //As of right now, it just runs a debug message in the terminal. But the logic *should* work
 //once I get the full logic implemented.

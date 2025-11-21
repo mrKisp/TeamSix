@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Methane",
+  "%Name":"obj_Oxygen",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Methane",
+  "name":"obj_Oxygen",
   "overriddenProperties":[],
   "parent":{
     "name":"Collectibles",
@@ -29,13 +29,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"heals","filters":[],"listItems":[],"multiselect":false,"name":"heals","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_methane",
-    "path":"sprites/spr_methane/spr_methane.yy",
+    "name":"spr_oxygen",
+    "path":"sprites/spr_oxygen/spr_oxygen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

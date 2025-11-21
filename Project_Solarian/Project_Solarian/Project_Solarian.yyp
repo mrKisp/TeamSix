@@ -94,6 +94,7 @@
     {"id":{"name":"obj_Methane_Inv","path":"objects/obj_Methane_Inv/obj_Methane_Inv.yy",},},
     {"id":{"name":"obj_Methane","path":"objects/obj_Methane/obj_Methane.yy",},},
     {"id":{"name":"obj_Oxygen_Inv","path":"objects/obj_Oxygen_Inv/obj_Oxygen_Inv.yy",},},
+    {"id":{"name":"obj_Oxygen","path":"objects/obj_Oxygen/obj_Oxygen.yy",},},
     {"id":{"name":"obj_Parent_Inv","path":"objects/obj_Parent_Inv/obj_Parent_Inv.yy",},},
     {"id":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},},
     {"id":{"name":"obj_Restart","path":"objects/obj_Restart/obj_Restart.yy",},},
