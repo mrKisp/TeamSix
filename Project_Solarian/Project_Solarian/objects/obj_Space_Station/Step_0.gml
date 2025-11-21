@@ -8,7 +8,7 @@ switch (Space_Stage)
 		if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 		{
 			//Replace with Goals for Stage 1
-			if(global.items.iron>=2 && global.items.hydrogen >= 5)
+			if(global.items.iron>=5 && global.items.hydrogen >= 10)
 			{
 				//Stage One Ready
 				Stage_One = true;
@@ -18,8 +18,9 @@ switch (Space_Stage)
 				if(keyboard_check_pressed(deposit_key))
 				{
 					//Remove for Items for Stage One
-					global.items.iron = global.items.iron - 2;
-					global.items.hydrogen = global.items.hydrogen - 5;
+					//"Goals:\n 5 Iron\n10 Hydrogen"
+					global.items.iron = global.items.iron - 5;
+					global.items.hydrogen = global.items.hydrogen - 10;
 					Stage_One = false;
 					Space_Stage = 1;
 					//Replace with Image index
@@ -37,7 +38,7 @@ switch (Space_Stage)
 		if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 		{
 			//Replace Values with the Goals for Stage 2
-			if(global.items.iron>=2 && global.items.hydrogen >= 5)
+			if(global.items.iron>=10 && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
 			{
 				//Stage One Ready
 				Stage_Two = true;
@@ -47,8 +48,11 @@ switch (Space_Stage)
 				if(keyboard_check_pressed(deposit_key))
 				{
 					//Replace with the Removal of Items needed for Stage 2
-					global.items.iron = global.items.iron - 2;
-					global.items.hydrogen = global.items.hydrogen - 5;
+					//"Goals:\n10 Iron\n20 Hydrogen\n10 Helium\n5  Sulfur\n"
+					global.items.iron = global.items.iron - 10;
+					global.items.hydrogen = global.items.hydrogen - 20;
+					global.items.helium = global.items.helium - 10;
+					global.items.sulfur = global.items.sulfur - 5;
 					Stage_Two = false;
 					Space_Stage = 2;
 					//Replace with next Image Index
@@ -63,7 +67,7 @@ switch (Space_Stage)
 		if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 		{
 			//Replace with goals for Stage 3
-			if(global.items.iron>=2 && global.items.hydrogen >= 5)
+			if(global.items.hydrogen >= 25 && global.items.helium >= 15 && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
 			{
 				//Stage One Ready
 				Stage_Three = true;
@@ -73,8 +77,12 @@ switch (Space_Stage)
 				if(keyboard_check_pressed(deposit_key))
 				{
 					//Replace with items for Stage 3
-					global.items.iron = global.items.iron - 2;
-					global.items.hydrogen = global.items.hydrogen - 5;
+					//"Goals:\n25 Hydrogen\n15 Helium\n10 Sulfur\n5  Methane\n3  Titanium"
+					global.items.hydrogen = global.items.hydrogen - 25;
+					global.items.helium = global.items.helium - 15;
+					global.items.sulfur = global.items.sulfur - 10;
+					global.items.methane = global.items.methane - 5;
+					global.items.titanium = global.items.titanium - 3;
 					Stage_Three = false;
 					Space_Stage = 3;
 					//Replace with next Image Index
@@ -90,4 +98,11 @@ switch (Space_Stage)
         // Code to execute if no case matches (optional)
 		//Not sure if *needed* here, but we can add a debug statement if it breaks for whatever reason.
         break;
+}
+
+//Just sets the view to max and leaves it there. Could be nice to animate it frame by frame for a win.
+if(room == rm_Win)
+{
+	image_index = 4;
+	image_speed = 0
 }

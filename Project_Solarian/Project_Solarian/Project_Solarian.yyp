@@ -116,6 +116,7 @@
     {"id":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},},
     {"id":{"name":"obj_Uranus","path":"objects/obj_Uranus/obj_Uranus.yy",},},
     {"id":{"name":"obj_Venus","path":"objects/obj_Venus/obj_Venus.yy",},},
+    {"id":{"name":"obj_Win","path":"objects/obj_Win/obj_Win.yy",},},
     {"id":{"name":"rm_Game_Over","path":"rooms/rm_Game_Over/rm_Game_Over.yy",},},
     {"id":{"name":"rm_GYM","path":"rooms/rm_GYM/rm_GYM.yy",},},
     {"id":{"name":"rm_Jupiter","path":"rooms/rm_Jupiter/rm_Jupiter.yy",},},
@@ -126,6 +127,7 @@
     {"id":{"name":"rm_UI_EXAMPLE","path":"rooms/rm_UI_EXAMPLE/rm_UI_EXAMPLE.yy",},},
     {"id":{"name":"rm_Uranus","path":"rooms/rm_Uranus/rm_Uranus.yy",},},
     {"id":{"name":"rm_Venus","path":"rooms/rm_Venus/rm_Venus.yy",},},
+    {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"scr_MACROS","path":"scripts/scr_MACROS/scr_MACROS.yy",},},
@@ -220,6 +222,7 @@
     {"roomId":{"name":"rm_Venus","path":"rooms/rm_Venus/rm_Venus.yy",},},
     {"roomId":{"name":"rm_Saturn","path":"rooms/rm_Saturn/rm_Saturn.yy",},},
     {"roomId":{"name":"rm_Uranus","path":"rooms/rm_Uranus/rm_Uranus.yy",},},
+    {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

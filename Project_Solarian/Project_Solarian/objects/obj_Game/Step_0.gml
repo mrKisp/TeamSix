@@ -25,6 +25,12 @@ if(keyboard_check(ord("J")) && keyboard_check(ord("U")) && keyboard_check(ord("P
 	room_goto(rm_Jupiter);
 }
 
+//Temp Shortcut to take us to Win Screen
+if(keyboard_check(ord("W")) && keyboard_check(ord("I")) && keyboard_check(ord("N")))
+{
+	room_goto(rm_Win);
+}
+
 //Adding Easy Escape so that I can quit a playtest faster.
 if(keyboard_check_pressed(vk_backspace))
 {
@@ -52,6 +58,7 @@ if(keyboard_check_pressed(vk_tab))
 	open_inventory();
 }
 
+
 /*
 if (keyboard_check_pressed(vk_tab))
 {
@@ -68,3 +75,15 @@ if (keyboard_check_pressed(vk_tab))
 	}
 }
 */
+
+//turns off the Press Tab on the Main Menu and if you are looking at codex or have won the game. 
+if(room == rm_Main_menu || global.game_paused == true || room == rm_Win)
+{
+	layer_set_visible("UI_PressTab", false);
+	layer_set_visible("UI_Goal", false);
+}
+else
+{
+	layer_set_visible("UI_PressTab", true);
+	layer_set_visible("UI_Goal", true);	
+}
