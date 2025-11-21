@@ -114,6 +114,7 @@ open_inventory = function()
 //Global Tutorial Text Variables
 global.default_var = false;
 global.tutorial_1 = false;
+global.tutorial_1a = false;
 global.tutorial_2 = false;
 global.tutorial_3 = false;
 global.tutorial_ship = false;

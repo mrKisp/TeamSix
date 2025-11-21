@@ -7,7 +7,7 @@ if(instance_exists(obj_Game))
 	switch(tutorial_ID)
 	{
 		case 0:
-			if(global.default_var = true) instance_destroy();
+			if(global.default_var = true) global.default_var = false;
 		break;
 		
 		case 1:
@@ -15,7 +15,7 @@ if(instance_exists(obj_Game))
 		break;
 		
 		case 2:
-			if(global.tutorial_1 = true) instance_destroy();
+			if(global.tutorial_1a = true) instance_destroy();
 		break;
 			
 		case 3:

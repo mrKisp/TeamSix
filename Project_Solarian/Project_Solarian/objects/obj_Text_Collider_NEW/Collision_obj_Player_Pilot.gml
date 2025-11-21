@@ -21,7 +21,7 @@ if(!instance_exists(obj_Text) && has_been_read == false)
 		break;
 		
 		case 2:
-			global.tutorial_1 = true;
+			global.tutorial_1a = true;
 		break;
 			
 		case 3:

@@ -12,6 +12,7 @@ switch (Space_Stage)
 			{
 				//Stage One Ready
 				Stage_One = true;
+				show_debug_message("Stage One Ready");
 			}
 			if(place_meeting(x, y, obj_Ship) && Stage_One == true)
 			{
@@ -29,6 +30,7 @@ switch (Space_Stage)
 					show_debug_message(global.items.iron);
 					show_debug_message(global.items.hydrogen);
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_2;
+					show_debug_message("Space Station Now in Stage Two");
 					
 				}
 			}
@@ -39,10 +41,11 @@ switch (Space_Stage)
 		if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 		{
 			//Replace Values with the Goals for Stage 2
-			if(global.items.iron>=10 && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
+			if(global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
 			{
 				//Stage two Ready
 				Stage_Two = true;
+				show_debug_message("Stage Two Ready");
 			}
 			if(place_meeting(x, y, obj_Ship) && Stage_Two == true)
 			{
@@ -50,7 +53,7 @@ switch (Space_Stage)
 				{
 					//Replace with the Removal of Items needed for Stage 2
 					//"Goals:\n10 Iron\n20 Hydrogen\n10 Helium\n5  Sulfur\n"
-					global.items.iron = global.items.iron - 10;
+					//global.items.iron = global.items.iron - 10;
 					global.items.hydrogen = global.items.hydrogen - 20;
 					global.items.helium = global.items.helium - 10;
 					global.items.sulfur = global.items.sulfur - 5;
@@ -60,6 +63,7 @@ switch (Space_Stage)
 					image_index = 2;
 					draw_self();
 					obj_Game.current_state = SPACE_STATION_STATE.PHASE_3
+					show_debug_message("Space Station Now in Stage Three");
 				}
 			}
 		}
@@ -69,10 +73,11 @@ switch (Space_Stage)
 		if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 		{
 			//Replace with goals for Stage 3
-			if(global.items.hydrogen >= 25 && global.items.helium >= 15 && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
+			if(global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
 			{
 				//Stage Three Ready
 				Stage_Three = true;
+				show_debug_message("Stage Three Ready");
 			}
 			if(place_meeting(x, y, obj_Ship) && Stage_Three == true)
 			{
@@ -80,8 +85,8 @@ switch (Space_Stage)
 				{
 					//Replace with items for Stage 3
 					//"Goals:\n25 Hydrogen\n15 Helium\n10 Sulfur\n5  Methane\n3  Titanium"
-					global.items.hydrogen = global.items.hydrogen - 25;
-					global.items.helium = global.items.helium - 15;
+					//global.items.hydrogen = global.items.hydrogen - 25;
+					//global.items.helium = global.items.helium - 15;
 					global.items.sulfur = global.items.sulfur - 10;
 					global.items.methane = global.items.methane - 5;
 					global.items.titanium = global.items.titanium - 3;
@@ -91,6 +96,7 @@ switch (Space_Stage)
 					image_index = 4;
 					draw_self();
 					alarm[0] = 600;
+					show_debug_message("Space Station is Now Finished");
 					obj_Ship.immortal = true;
 				}
 			}

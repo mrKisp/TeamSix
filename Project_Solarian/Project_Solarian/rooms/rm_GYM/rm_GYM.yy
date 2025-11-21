@@ -24,7 +24,6 @@
     {"name":"inst_1DFE6821","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_2B767D4F","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_694F4B00","path":"rooms/rm_GYM/rm_GYM.yy",},
-    {"name":"inst_5A6A65DB","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_68A70B5F","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_49E210CB","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_67F38003","path":"rooms/rm_GYM/rm_GYM.yy",},
@@ -35,6 +34,7 @@
     {"name":"inst_72D998DC","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_1B4B481C","path":"rooms/rm_GYM/rm_GYM.yy",},
     {"name":"inst_244120CF","path":"rooms/rm_GYM/rm_GYM.yy",},
+    {"name":"inst_6CEAF511","path":"rooms/rm_GYM/rm_GYM.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -72,10 +72,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press E to Interact with the Environment",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"tutorial_ID","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":9.5,"x":416.0,"y":368.0,},
-        {"$GMRInstance":"v2","%Name":"inst_5A6A65DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A6A65DB","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press Tab to Access Codex",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"tutorial_ID","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.0,"x":864.0,"y":320.0,},
         {"$GMRInstance":"v2","%Name":"inst_68A70B5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68A70B5F","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Hold Jump to use your Jetpack",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"tutorial_ID","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
@@ -83,7 +79,11 @@
         {"$GMRInstance":"v2","%Name":"inst_244120CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_244120CF","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pick up oxygen to heal!",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":6.5,"x":608.0,"y":272.0,},
-      ],"layers":[],"name":"Colliders","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+        {"$GMRInstance":"v2","%Name":"inst_6CEAF511","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CEAF511","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"new_message","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Press Tab to Access Codex",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"propertyId":{"name":"tutorial_ID","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":8.0,"x":864.0,"y":320.0,},
+      ],"layers":[],"name":"Colliders","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":34,"TileCompressedData":[
           1,10,-4,0,-20,-2147483648,-3,0,1,12,-5,8,1,10,-4,0,-20,-2147483648,-3,0,1,12,-5,8,1,10,-3,0,-21,-2147483648,
           -3,0,1,12,-5,8,3,10,0,0,-22,-2147483648,-3,0,1,12,-5,8,3,10,0,0,-8,-2147483648,-4,0,-10,-2147483648,

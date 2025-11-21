@@ -21,3 +21,26 @@ for (var i = 0; i < array_length(kv); i++)
 		alarm[0] = 180; // 3 seconds ish
 	}
 }
+
+//updates the UI layer with the goals each step. Active tracking of inventory. 
+if(instance_exists(obj_Game))
+{
+	if(obj_Game.current_state == SPACE_STATION_STATE.PHASE_1)
+	{
+		layer_text_text(mission_one_id, $"Iron {global.items.iron}/5");
+		layer_text_text(mission_two_id, $"Hydrogen {global.items.hydrogen}/10");
+		layer_text_text(mission_three_id, $" ");
+	}
+	if(obj_Game.current_state == SPACE_STATION_STATE.PHASE_2)
+	{
+		layer_text_text(mission_one_id, $"Hydrogen {global.items.hydrogen}/20");
+		layer_text_text(mission_two_id, $"Helium {global.items.helium}/10");
+		layer_text_text(mission_three_id, $"Sulfur {global.items.sulfur}/5");
+	}
+	if(obj_Game.current_state == SPACE_STATION_STATE.PHASE_3)
+	{
+		layer_text_text(mission_one_id, $"Sulfur {global.items.sulfur}/10");
+		layer_text_text(mission_two_id, $"Methane {global.items.methane}/5");
+		layer_text_text(mission_three_id, $"Titanium {global.items.titanium}/3");
+	}
+}
