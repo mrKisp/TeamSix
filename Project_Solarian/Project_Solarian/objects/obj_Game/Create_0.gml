@@ -92,6 +92,7 @@ current_state = SPACE_STATION_STATE.PHASE_1;
 
 inventory_layer_name = "UI_Inventory";
 item_notify_layer_name = "UI_ItemNotify";
+press_tab_layer_name = "UI_PressTab";
 
 open_inventory = function()
 {
@@ -99,11 +100,14 @@ open_inventory = function()
 	{
 		instance_deactivate_all(true);
 		layer_set_visible(inventory_layer_name, true);
+		layer_set_visible(item_notify_layer_name, false);
+		layer_set_visible(press_tab_layer_name, false);
 	}
 	else
 	{
 		instance_activate_all();
 		layer_set_visible(inventory_layer_name, false);
+		layer_set_visible(press_tab_layer_name, true);
 	}
 }
 
