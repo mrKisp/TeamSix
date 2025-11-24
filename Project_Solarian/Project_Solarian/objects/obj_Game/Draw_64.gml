@@ -51,7 +51,7 @@ if(room != rm_Main_menu && instance_exists(obj_Space_Station)) {
 	}
 
 	// Draw a simple deposit message
-	if(obj_Space_Station.Stage_Two == true && global.items.iron>=10 && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
+	if(obj_Space_Station.Stage_Two == true && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
 	{
 		draw_set_font(fnt_logo);
 	
@@ -65,7 +65,7 @@ if(room != rm_Main_menu && instance_exists(obj_Space_Station)) {
 		draw_set_font(fnt_gui);
 	}
 	// Draw a simple deposit message
-	if(obj_Space_Station.Stage_Three == true && global.items.hydrogen >= 25 && global.items.helium >= 15 && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
+	if(obj_Space_Station.Stage_Three == true && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
 	{
 		draw_set_font(fnt_logo);
 	
