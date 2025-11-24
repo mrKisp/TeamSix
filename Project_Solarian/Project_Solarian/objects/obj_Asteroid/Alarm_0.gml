@@ -1,4 +1,5 @@
 direction = random(360);
+explodable = true;
 
 if (is_stationary) instance_destroy();
 else
