@@ -82,11 +82,12 @@ ship_hp = 100;
 ship_x = 1664;
 ship_y = 1536;
 
- // In the Create Event
+ // Tracker for Space Station
     enum SPACE_STATION_STATE {
         PHASE_1,
         PHASE_2,
-        PHASE_3
+        PHASE_3,
+		PHASE_FIN
     }
 current_state = SPACE_STATION_STATE.PHASE_1;
 
@@ -110,6 +111,9 @@ open_inventory = function()
 		layer_set_visible(press_tab_layer_name, true);
 	}
 }
+
+//Player Has Won
+player_Won = false;
 
 //Global Tutorial Text Variables
 global.default_var = false;

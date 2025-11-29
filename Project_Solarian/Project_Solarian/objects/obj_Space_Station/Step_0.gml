@@ -95,11 +95,13 @@ if(instance_exists(obj_Game))
 						Stage_Three = false;
 						Space_Stage = 3;
 						//Replace with next Image Index
+						obj_Game.current_state = SPACE_STATION_STATE.PHASE_FIN
 						image_index = 4;
 						draw_self();
 						alarm[0] = 600;
 						show_debug_message("Space Station is Now Finished");
 						obj_Ship.immortal = true;
+						obj_Game.player_Won = true;
 					}
 				}
 			}
@@ -112,9 +114,17 @@ if(instance_exists(obj_Game))
 	}
 
 	//Just sets the view to max and leaves it there. Could be nice to animate it frame by frame for a win.
-	if(room == rm_Win)
+	if(room_get_name(room) == "rm_Win")
 	{
-		image_index = 4;
-		image_speed = 0
+		if(instance_exists(obj_Game))
+		{
+			obj_Game.player_Won = false;
+		}
+		//image_index = 0;
+		image_speed = 1;
+		if(image_index >= 4)
+		{
+			image_index = 4;
+		}
 	}
 }

@@ -102,6 +102,7 @@
     {"id":{"name":"obj_Oxygen","path":"objects/obj_Oxygen/obj_Oxygen.yy",},},
     {"id":{"name":"obj_Parent_Inv","path":"objects/obj_Parent_Inv/obj_Parent_Inv.yy",},},
     {"id":{"name":"obj_Player_Pilot","path":"objects/obj_Player_Pilot/obj_Player_Pilot.yy",},},
+    {"id":{"name":"obj_Rain","path":"objects/obj_Rain/obj_Rain.yy",},},
     {"id":{"name":"obj_Restart","path":"objects/obj_Restart/obj_Restart.yy",},},
     {"id":{"name":"obj_Room_Flip","path":"objects/obj_Room_Flip/obj_Room_Flip.yy",},},
     {"id":{"name":"obj_Saturn","path":"objects/obj_Saturn/obj_Saturn.yy",},},
