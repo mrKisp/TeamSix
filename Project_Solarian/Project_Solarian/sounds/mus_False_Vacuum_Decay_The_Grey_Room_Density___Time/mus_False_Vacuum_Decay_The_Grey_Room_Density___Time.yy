@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":225.0,
+  "name":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time",
+  "parent":{
+    "name":"Background",
+    "path":"folders/Sounds/Background.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time.mp3",
+  "type":0,
+  "volume":1.0,
+}

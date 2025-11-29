@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_Nebula_The_Grey_Room_Density___Time",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":189.4737,
+  "name":"mus_Nebula_The_Grey_Room_Density___Time",
+  "parent":{
+    "name":"Background",
+    "path":"folders/Sounds/Background.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_Nebula_The_Grey_Room_Density___Time.mp3",
+  "type":0,
+  "volume":1.0,
+}
