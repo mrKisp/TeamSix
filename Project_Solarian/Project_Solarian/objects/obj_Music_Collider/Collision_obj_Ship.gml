@@ -2,16 +2,9 @@ if(instance_exists(obj_Music))
 {
 	with(obj_Music)
 	{
-		if(other.target_Music != noone)
+		if(other.target_Music != noone && other.target_Music != old_playlist)
 		{
-			if current_Playlist == other.target_Music
-			{
-				break;
-			}
-			else
-			{
-				current_Playlist = other.target_Music;
-			}
+			current_Playlist = other.target_Music;
 		}
 		else
 		{
