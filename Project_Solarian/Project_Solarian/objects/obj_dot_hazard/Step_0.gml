@@ -32,12 +32,14 @@ if(instance_exists(obj_Ship))
 	if(place_meeting(x,y,obj_Ship))
 	{
 		counter += 1;
+		obj_Ship.image_blend = c_red;
 	}
 	//Resets the counter back to zero if the player is not standing
 	//in the danger zone
 	else
 	{
 		counter = 0;
+		obj_Ship.image_blend = c_white;
 	}
 	
 	//if Counter exceeds framerate, deal damage, and reset counter. 
