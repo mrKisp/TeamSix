@@ -62,7 +62,9 @@ StateFree = function()
 	// configured in the editor
 	if (onGround)
 	{
-		canDash = true;
+		if(instance_exists(obj_Hydrogen))
+			if(global.items.hydrogen>0)
+				canDash = true;
 		// Sprite animation logic
 		if (move_x != 0)
 		{
@@ -98,6 +100,9 @@ StateFree = function()
 			//It really will work well or not.
 			current_fuel -= fuel_drain;
 			move_y -= jet_pack_strength;
+			// Jetpack audio logic
+			if(!audio_is_playing(sfx_jpack))
+				audio_play_sound(sfx_jpack,100,true);
 			//A quick flag to only spawn one object instead of 60 per frame.
 			fx_on = true;
 			if(fx_on)
@@ -108,6 +113,8 @@ StateFree = function()
 		}
 		else
 		{
+			// Logic to shut off jetpack sound when not jetpacking
+			audio_stop_sound(sfx_jpack);
 			//It is showing the debug message that the object is being destroyed, so it is *probably*
 			//Good and wont' cause a memory leak?
 			//show_debug_message("Exhaust Destroyed in obj_Pilot");
@@ -139,6 +146,7 @@ StateFree = function()
 	// Dash input
 	if (canDash) && keyboard_check(dash_button)
 	{
+		global.items.hydrogen--;
 		canDash = false;
 		dashDirection = point_direction(0,0,right_input-left_input,x);
 		dashSp = dashDistance/dashTime;
@@ -211,7 +219,6 @@ StateDash = function()
 		hsp = 0;
 		state = StateFree;
 	}
-
 }
 
 state = StateFree;

@@ -4,3 +4,5 @@ visible = true
 isCollected = false // Has the player collected the object? (default false)
 interact_message = "E" // Tooltip message for when player approaches
 showInteract = false // Boolean for showing collection tooltip
+collect_sfx = sfx_collect;
+heal_sfx = sfx_heal;

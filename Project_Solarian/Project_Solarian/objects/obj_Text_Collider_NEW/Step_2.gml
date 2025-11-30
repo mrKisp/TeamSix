@@ -57,6 +57,9 @@ if(instance_exists(obj_Game))
 		case 12:
 			if(global.tutorial_Uranus = true) instance_destroy();
 		break;
+		case 13:
+			if(global.tutorial_Jupiter = true) instance_destroy();
+		break;
 
 	}
 }

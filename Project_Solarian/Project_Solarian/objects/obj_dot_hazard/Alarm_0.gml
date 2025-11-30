@@ -1,0 +1,1 @@
+audio_play_sound(sfx_player_hurt,1,false)

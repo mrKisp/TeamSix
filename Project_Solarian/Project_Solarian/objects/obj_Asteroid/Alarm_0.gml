@@ -9,8 +9,10 @@ else
 }
 if (instance_exists(obj_Ship))
 {
-	if (random(20) < 1)
+	if (random(20) < 2)
 		global.items.hydrogen++;
+	if (random(50) < 2)
+		global.items.titanium++;
 	if (obj_Ship.current_hp < obj_Ship.max_health)
 		if (obj_Ship.current_hp+heals > obj_Ship.max_health)
 			obj_Ship.current_hp = obj_Ship.max_health;

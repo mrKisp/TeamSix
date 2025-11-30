@@ -22,14 +22,26 @@ if (global.game_paused = false)
 	{
 		if (instance_exists(obj_Player_Pilot))
 		{
+			draw_set_font(fnt_count);
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			draw_set_colour(c_white);
 			draw_healthbar(20, 50, 150, 70, obj_Player_Pilot.current_fuel,c_black,c_yellow,c_green,0,true,true)
+			draw_text(30,50, "Fuel");
 			draw_healthbar(20, 70, 150, 90, obj_Player_Pilot.current_hp,c_black,c_grey,c_red,0,true,true)
+			draw_text(40,70,"HP");
 		}
 	
 		if (instance_exists(obj_Ship))
 		{
-			draw_healthbar(20, 50, 150, 70, obj_Ship.current_fuel,c_black,c_yellow,c_green,0,true,true)
+			draw_set_font(fnt_count);
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+			draw_set_colour(c_white);			
+			
+		//	draw_healthbar(20, 50, 150, 70, obj_Ship.current_fuel,c_black,c_yellow,c_green,0,true,true)
 			draw_healthbar(20, 70, 150, 90, obj_Ship.current_hp,c_black,c_grey,c_red,0,true,true)
+			draw_text(30,70,"HP");
 		}
 	}
 }
@@ -58,7 +70,7 @@ if(room != rm_Main_menu) {
 		draw_set_color(c_green);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station!");
+		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station Near Earth!");
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_colour(c_white);
@@ -72,7 +84,7 @@ if(room != rm_Main_menu) {
 		draw_set_color(c_green);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station!");
+		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station Near Earth!");
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_colour(c_white);

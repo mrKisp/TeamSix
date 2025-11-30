@@ -11,6 +11,7 @@ if(!isCollected) {
 			global.items.iron++	// Increase iron count if more iron is collected
 			global.codex.add_item(name, 1, sprite);
 			showInteract = false // Get rid of tooltip
+			audio_play_sound(collect_sfx,100,false);
 		}
 	}
 	else

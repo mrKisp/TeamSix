@@ -18,6 +18,7 @@ for (var i = 0; i < array_length(kv); i++)
 		layer_set_visible(new_item_id, true);
 		var spr = asset_get_index("spr_" + string(name));
 		layer_sprite_change(back_id, spr); // ignore this warning it works, gamemaker is being a dumbass
+		audio_play_sound(sfx_codex,100,false);
 		alarm[0] = 180; // 3 seconds ish
 	}
 }

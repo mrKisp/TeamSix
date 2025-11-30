@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":225.0,
+  "duration":166.02122,
   "name":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time",
   "parent":{
     "name":"Background",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.12,
 }

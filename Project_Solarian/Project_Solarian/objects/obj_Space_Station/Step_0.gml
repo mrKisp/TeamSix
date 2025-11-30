@@ -20,6 +20,7 @@ if(instance_exists(obj_Game))
 				{
 					if(keyboard_check_pressed(deposit_key))
 					{
+						audio_play_sound(sfx_complete,1,false);
 						//Remove for Items for Stage One
 						//"Goals:\n 5 Iron\n10 Hydrogen"
 						global.items.iron = global.items.iron - 5;
@@ -27,7 +28,7 @@ if(instance_exists(obj_Game))
 						Stage_One = false;
 						Space_Stage = 1;
 						//Replace with Image index
-						image_index = 0;
+						image_index = 1;
 						draw_self()
 						show_debug_message(global.items.iron);
 						show_debug_message(global.items.hydrogen);
@@ -53,6 +54,7 @@ if(instance_exists(obj_Game))
 				{
 					if(keyboard_check_pressed(deposit_key))
 					{
+						audio_play_sound(sfx_complete,1,false);
 						//Replace with the Removal of Items needed for Stage 2
 						//"Goals:\n10 Iron\n20 Hydrogen\n10 Helium\n5  Sulfur\n"
 						//global.items.iron = global.items.iron - 10;
@@ -85,6 +87,7 @@ if(instance_exists(obj_Game))
 				{
 					if(keyboard_check_pressed(deposit_key))
 					{
+						audio_play_sound(sfx_complete,1,false);
 						//Replace with items for Stage 3
 						//"Goals:\n25 Hydrogen\n15 Helium\n10 Sulfur\n5  Methane\n3  Titanium"
 						//global.items.hydrogen = global.items.hydrogen - 25;

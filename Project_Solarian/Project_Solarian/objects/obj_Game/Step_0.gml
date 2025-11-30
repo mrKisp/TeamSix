@@ -45,6 +45,7 @@ if(instance_exists(obj_Player_Pilot))
 		// reset item count so inventory UI is updated
 		global.items = init_items();
 		room_goto(rm_Game_Over)
+		audio_play_sound(sfx_lose,1,false);
 	}
 }
 

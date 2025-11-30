@@ -11,6 +11,7 @@ if(!isCollected) {
 			global.items.oxygen++	// Increase oxygen count if more oxygen is collected
 			global.codex.add_item(name, 1, sprite);
 			showInteract = false // Get rid of tooltip
+			audio_play_sound(heal_sfx,100,false);
 			if (obj_Player_Pilot.current_hp < obj_Player_Pilot.max_hp)
 				if (obj_Player_Pilot.current_hp+heals > obj_Player_Pilot.max_hp)
 					obj_Player_Pilot.current_hp = obj_Player_Pilot.max_hp;

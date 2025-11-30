@@ -8,7 +8,7 @@ sprite_index = spr_unknown_item;
 
 display_info_on_hover = function()
 {
-	layer_text_text(textId, $"Item Name: {name}\nCount: {count}\nFound in: {planet}\nDescription: {description}");
+	layer_text_text(textId, $"Item Name: {name}\nCount: {count}\nFound: {planet}\nDescription: {description}");
 }
 
 display_empty = function()
