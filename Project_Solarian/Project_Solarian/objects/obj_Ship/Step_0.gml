@@ -29,10 +29,15 @@ if (!boost_used_bool) {
 //basic forward motion from the Arcade tutorial from class.
 if (keyboard_check(acceleration_key) || keyboard_check(alt_move_key_acc))
 {
+	if(!audio_is_playing(sfx_ship_acc))
+		audio_play_sound(sfx_ship_acc,100,true);
 	motion_add(image_angle, move_speed);
 	sprite_index = spr_Ship_anim;
 }
-else sprite_index = spr_Player_Ship;
+else {
+	audio_stop_sound(sfx_ship_acc);
+	sprite_index = spr_Player_Ship;
+}
 //Basic rotation from Arcade Class Tutorial
 if (keyboard_check(move_key_left) || keyboard_check(alt_move_key_left))
 {

@@ -152,6 +152,7 @@
     {"id":{"name":"sfx_Laser_Gun","path":"sounds/sfx_Laser_Gun/sfx_Laser_Gun.yy",},},
     {"id":{"name":"sfx_lose","path":"sounds/sfx_lose/sfx_lose.yy",},},
     {"id":{"name":"sfx_player_hurt","path":"sounds/sfx_player_hurt/sfx_player_hurt.yy",},},
+    {"id":{"name":"sfx_ship_acc","path":"sounds/sfx_ship_acc/sfx_ship_acc.yy",},},
     {"id":{"name":"sfx_ship_hurt","path":"sounds/sfx_ship_hurt/sfx_ship_hurt.yy",},},
     {"id":{"name":"scifi_inventory02_box_select01","path":"sprites/scifi_inventory02_box_select01/scifi_inventory02_box_select01.yy",},},
     {"id":{"name":"scifi_inventory02_box_select02","path":"sprites/scifi_inventory02_box_select02/scifi_inventory02_box_select02.yy",},},
