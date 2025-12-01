@@ -6,6 +6,7 @@ if(instance_exists(obj_Game))
 	switch (obj_Game.current_state)
 	{
 	    case SPACE_STATION_STATE.PHASE_1:
+			image_index = 0;
 	        // Code to execute if expression equals value1
 			if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 			{
@@ -28,7 +29,7 @@ if(instance_exists(obj_Game))
 						Stage_One = false;
 						Space_Stage = 1;
 						//Replace with Image index
-						image_index = 1;
+						
 						draw_self()
 						show_debug_message(global.items.iron);
 						show_debug_message(global.items.hydrogen);
@@ -40,6 +41,7 @@ if(instance_exists(obj_Game))
 			}
 			break;
 	    case SPACE_STATION_STATE.PHASE_2:
+			image_index = 1;
 	        // Code to execute if expression equals value2
 			if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 			{
@@ -64,7 +66,7 @@ if(instance_exists(obj_Game))
 						Stage_Two = false;
 						Space_Stage = 2;
 						//Replace with next Image Index
-						image_index = 2;
+						
 						draw_self();
 						obj_Game.current_state = SPACE_STATION_STATE.PHASE_3
 						show_debug_message("Space Station Now in Stage Three");
@@ -73,11 +75,12 @@ if(instance_exists(obj_Game))
 			}
 	        break;
 	    case SPACE_STATION_STATE.PHASE_3:
+			image_index = 2;
 	        // Code to execute if expression equals value2
 			if(instance_exists(obj_Ship) && instance_exists(obj_Game))
 			{
 				//Replace with goals for Stage 3
-				if(global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
+				if(global.items.sulfur >= 10 && global.items.methane >= 5 && global.items.titanium >= 3)
 				{
 					//Stage Three Ready
 					Stage_Three = true;

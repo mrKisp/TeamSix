@@ -116,6 +116,7 @@
     {"id":{"name":"obj_Sun","path":"objects/obj_Sun/obj_Sun.yy",},},
     {"id":{"name":"obj_test_platform","path":"objects/obj_test_platform/obj_test_platform.yy",},},
     {"id":{"name":"obj_Text_Collider_NEW","path":"objects/obj_Text_Collider_NEW/obj_Text_Collider_NEW.yy",},},
+    {"id":{"name":"obj_Text_Collider_TUTORIAL","path":"objects/obj_Text_Collider_TUTORIAL/obj_Text_Collider_TUTORIAL.yy",},},
     {"id":{"name":"obj_Text","path":"objects/obj_Text/obj_Text.yy",},},
     {"id":{"name":"obj_Textbox_GUI","path":"objects/obj_Textbox_GUI/obj_Textbox_GUI.yy",},},
     {"id":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},},

@@ -77,7 +77,7 @@ if(room != rm_Main_menu) {
 		draw_set_font(fnt_gui);
 	}
 	// Draw a simple deposit message
-	if(current_state == SPACE_STATION_STATE.PHASE_3 && global.items.sulfur >= 10 && global.items.methane >= 3 && global.items.titanium >= 3)
+	if(current_state == SPACE_STATION_STATE.PHASE_3 && global.items.sulfur >= 10 && global.items.methane >= 5 && global.items.titanium >= 3)
 	{
 		draw_set_font(fnt_logo);
 	

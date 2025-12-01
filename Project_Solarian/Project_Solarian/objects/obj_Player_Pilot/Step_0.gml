@@ -28,3 +28,4 @@ if (keyboard_check(alt_move_key_left))
 		jpack = keyboard_check(alt_move_key_jump);
 
 state();
+
