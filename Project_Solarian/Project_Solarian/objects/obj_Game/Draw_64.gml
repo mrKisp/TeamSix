@@ -55,7 +55,7 @@ if(room != rm_Main_menu) {
 		draw_set_color(c_green);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station!");
+		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_colour(c_white);
@@ -70,7 +70,7 @@ if(room != rm_Main_menu) {
 		draw_set_color(c_green);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station Near Earth!");
+		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_colour(c_white);
@@ -84,7 +84,7 @@ if(room != rm_Main_menu) {
 		draw_set_color(c_green);
 		draw_set_valign(fa_middle);
 		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station Near Earth!");
+		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
 		draw_set_valign(fa_top);
 		draw_set_halign(fa_left);
 		draw_set_colour(c_white);
