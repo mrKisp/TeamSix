@@ -16,10 +16,14 @@ if (keyboard_check(alt_move_key_left))
 	if (keyboard_check_pressed(alt_move_key_jump))
 		jump = keyboard_check_pressed(alt_move_key_jump);
 	
-	// Jetpack alt key logic
+// Jetpack alt key logic
+// ----SPACEBAR METHOD-----
 	jpack = 0;
+	if (keyboard_check(move_key_jpack))
+		jpack = keyboard_check(move_key_jpack);
+//	----OLD METHOD----
 	if (keyboard_check(move_key_jump))
-		jpack = keyboard_check(move_key_jump);
+		jpack = keyboard_check(move_key_jump)
 	if (keyboard_check(alt_move_key_jump))
 		jpack = keyboard_check(alt_move_key_jump);
 

@@ -47,6 +47,7 @@
     {"$GMObjectProperty":"v1","%Name":"immortal_window","filters":[],"listItems":[],"multiselect":false,"name":"immortal_window","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"dash_button","filters":[],"listItems":[],"multiselect":false,"name":"dash_button","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_shift","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"dash_strength","filters":[],"listItems":[],"multiselect":false,"name":"dash_strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"move_key_jpack","filters":[],"listItems":[],"multiselect":false,"name":"move_key_jpack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_space","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
