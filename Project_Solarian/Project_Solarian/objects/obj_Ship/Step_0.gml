@@ -3,7 +3,7 @@
 image_speed = 1;
 
 //For simplicity (at least for now) adding wrapping so that we don't have to worry about escaping the room.
-move_wrap(false, true, 0)
+move_wrap(true, true, 0)
 
 //Added this so that the image rotation stays within the one circle. Technically could go really high/low
 //But now it should remain in a single circle.
