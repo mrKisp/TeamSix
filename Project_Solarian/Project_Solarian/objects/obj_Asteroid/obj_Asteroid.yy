@@ -29,8 +29,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"damage_value_player","filters":[],"listItems":[],"multiselect":false,"name":"damage_value_player","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"damage_value_ship","filters":[],"listItems":[],"multiselect":false,"name":"damage_value_ship","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"damage_value_player","filters":[],"listItems":[],"multiselect":false,"name":"damage_value_player","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"damage_value_ship","filters":[],"listItems":[],"multiselect":false,"name":"damage_value_ship","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"is_stationary","filters":[],"listItems":[],"multiselect":false,"name":"is_stationary","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"is_planetside","filters":[],"listItems":[],"multiselect":false,"name":"is_planetside","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"rotation_rate","filters":[],"listItems":[],"multiselect":false,"name":"rotation_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},

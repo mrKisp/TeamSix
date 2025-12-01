@@ -3,7 +3,7 @@
 image_speed = 1;
 
 //For simplicity (at least for now) adding wrapping so that we don't have to worry about escaping the room.
-move_wrap(true, true, 0)
+move_wrap(false, true, 0)
 
 //Added this so that the image rotation stays within the one circle. Technically could go really high/low
 //But now it should remain in a single circle.
@@ -29,8 +29,11 @@ if (!boost_used_bool) {
 //basic forward motion from the Arcade tutorial from class.
 if (keyboard_check(acceleration_key) || keyboard_check(alt_move_key_acc))
 {
-	if(!audio_is_playing(sfx_ship_acc))
-		audio_play_sound(sfx_ship_acc,100,true);
+	if(room == rm_Solar_System)
+	{
+		if(!audio_is_playing(sfx_ship_acc))
+			audio_play_sound(sfx_ship_acc,100,true);
+	}
 	motion_add(image_angle, move_speed);
 	sprite_index = spr_Ship_anim;
 }
@@ -114,4 +117,8 @@ if (mouse_check_button_pressed(shoot_button) && room_get_name(room) == "rm_Solar
 	audio_play_sound(laser_sfx,100,false);
 	alarm[1] = 60;
 }
+
+
+
+
 
