@@ -93,10 +93,13 @@ else
 
 if(instance_exists(obj_Player_Pilot))
 {
-	if(obj_Player_Pilot.current_hp < 33)
+	
+	if(obj_Player_Pilot.current_hp < 33 && is_vis)
 	{
 		instance_create_layer(0,0,"Background_Stuff", obj_Text)
 		obj_Text.message_displayed = "Gather Oxygen to Heal!";
+		if (keyboard_check_pressed(ord("E"))
+			is_vis = false;
 	}
 	else
 	{

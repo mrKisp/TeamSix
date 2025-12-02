@@ -113,6 +113,7 @@
     {"id":{"name":"obj_Saturn","path":"objects/obj_Saturn/obj_Saturn.yy",},},
     {"id":{"name":"obj_Ship","path":"objects/obj_Ship/obj_Ship.yy",},},
     {"id":{"name":"obj_Space_Station","path":"objects/obj_Space_Station/obj_Space_Station.yy",},},
+    {"id":{"name":"obj_Station_Aura","path":"objects/obj_Station_Aura/obj_Station_Aura.yy",},},
     {"id":{"name":"obj_Sulfur_Inv","path":"objects/obj_Sulfur_Inv/obj_Sulfur_Inv.yy",},},
     {"id":{"name":"obj_Sulfur","path":"objects/obj_Sulfur/obj_Sulfur.yy",},},
     {"id":{"name":"obj_Sun","path":"objects/obj_Sun/obj_Sun.yy",},},

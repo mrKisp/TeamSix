@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-
+if(room != rm_Saturn || room != rm_Uranus || room != rm_Mars) visible = false;
 if(!isCollected) {
 	if(place_meeting(x,y,obj_Player_Pilot)) // If player is touching the titanium
 	{

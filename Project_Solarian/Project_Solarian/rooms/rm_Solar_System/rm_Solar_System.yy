@@ -123,6 +123,7 @@
     {"name":"inst_5E18D721","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_3F9697B8","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
     {"name":"inst_4FA30872","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
+    {"name":"inst_54E326F8","path":"rooms/rm_Solar_System/rm_Solar_System.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -385,6 +386,7 @@
       ],"layers":[],"name":"Tutorial_boxes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Background_Stuff","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_297A03A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_297A03A2","objectId":{"name":"obj_Space_Station","path":"objects/obj_Space_Station/obj_Space_Station.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":34.074955,"scaleX":1.2666667,"scaleY":1.2666667,"x":2176.0,"y":1440.0,},
+        {"$GMRInstance":"v2","%Name":"inst_54E326F8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54E326F8","objectId":{"name":"obj_Station_Aura","path":"objects/obj_Station_Aura/obj_Station_Aura.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":3.5,"x":2192.0,"y":1456.0,},
       ],"layers":[],"name":"Background_Stuff","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"FX_Layer","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"FX_Layer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Planets","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

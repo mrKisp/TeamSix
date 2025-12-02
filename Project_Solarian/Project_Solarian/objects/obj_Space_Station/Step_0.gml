@@ -19,8 +19,14 @@ if(instance_exists(obj_Game))
 				}
 				if(place_meeting(x, y, obj_Ship) && Stage_One == true)
 				{
+					if(place_meeting(x,y,obj_Ship)) // If player is touching the iron
+					{
+							show_interact = true;	
+					}
+					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Remove for Items for Stage One
 						//"Goals:\n 5 Iron\n10 Hydrogen"
@@ -54,8 +60,14 @@ if(instance_exists(obj_Game))
 				}
 				if(place_meeting(x, y, obj_Ship) && Stage_Two == true)
 				{
+					if(place_meeting(x,y,obj_Ship)) // If player is touching the iron
+					{
+						show_interact = true;	
+					}
+					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Replace with the Removal of Items needed for Stage 2
 						//"Goals:\n10 Iron\n20 Hydrogen\n10 Helium\n5  Sulfur\n"
@@ -88,8 +100,14 @@ if(instance_exists(obj_Game))
 				}
 				if(place_meeting(x, y, obj_Ship) && Stage_Three == true)
 				{
+					if(place_meeting(x,y,obj_Ship)) // If player is touching the iron
+					{
+						show_interact = true;	
+					}
+					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Replace with items for Stage 3
 						//"Goals:\n25 Hydrogen\n15 Helium\n10 Sulfur\n5  Methane\n3  Titanium"

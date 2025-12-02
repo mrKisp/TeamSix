@@ -130,3 +130,5 @@ global.tutorial_Mars = false;
 global.tutorial_Jupiter = false;
 global.tutorial_Saturn = false;
 global.tutorial_Uranus = false;
+
+is_vis = true;
