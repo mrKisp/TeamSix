@@ -78,6 +78,8 @@ layer_set_visible("UI Folder", false);
 player_hp = 100;
 max_hp = player_hp;
 ship_hp = 100;
+warning_active = false;
+ship_warning_active = false;
 
 // default x and y when user finishes gym
 ship_x = 1664;

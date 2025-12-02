@@ -91,28 +91,32 @@ else
 	layer_set_visible("UI_Goal", true);	
 }
 
-if(instance_exists(obj_Player_Pilot))
+if(instance_exists(obj_Player_Pilot) && warning_active = false)
 {
-	
-	if(obj_Player_Pilot.current_hp < 33 && is_vis)
+	if(obj_Player_Pilot.current_hp < 33)
 	{
 		instance_create_layer(0,0,"Background_Stuff", obj_Text)
 		obj_Text.message_displayed = "Gather Oxygen to Heal!";
+		warning_active = true;
 	}
 	else
 	{
 		//This should never be used. Hopefully.
 	}
+	alarm[0] = 600;
 }
-if(instance_exists(obj_Ship))
+
+if(instance_exists(obj_Ship) && ship_warning_active = false)
 {
 	if(obj_Ship.current_hp < 33)
 	{
 		instance_create_layer(0,0,"Background_Stuff", obj_Text)
 		obj_Text.message_displayed = "Destroy Asteroids to Heal!";
+		ship_warning_active = true;
 	}
 	else
 	{
 		//This should never be used. Hopefully.
 	}
+	alarm[0] = 600;
 }
