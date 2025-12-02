@@ -115,7 +115,7 @@ if(obj_Ship.current_hp <= 0)
 if (mouse_check_button_pressed(shoot_button) && room_get_name(room) == "rm_Solar_System")
 {
 	instance_create_layer(x, y, "Instances", obj_bullet);
-	audio_play_sound(laser_sfx,100,false);
+	audio_play_sound(laser_sfx,100,false,1,0,random_range(.8,1));
 	alarm[1] = 60;
 }
 

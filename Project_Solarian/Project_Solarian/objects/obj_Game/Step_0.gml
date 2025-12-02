@@ -28,6 +28,7 @@ if(keyboard_check(ord("J")) && keyboard_check(ord("U")) && keyboard_check(ord("P
 //Temp Shortcut to take us to Win Screen
 if(keyboard_check(ord("W")) && keyboard_check(ord("I")) && keyboard_check(ord("N")))
 {
+	current_state = SPACE_STATION_STATE.PHASE_FIN;
 	room_goto(rm_Win);
 }
 

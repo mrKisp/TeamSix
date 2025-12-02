@@ -58,6 +58,9 @@
     "name":"spr_Player_Ship",
     "path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_Player_Ship",
+    "path":"sprites/spr_Player_Ship/spr_Player_Ship.yy",
+  },
   "visible":true,
 }

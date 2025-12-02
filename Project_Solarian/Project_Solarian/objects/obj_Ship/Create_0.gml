@@ -4,7 +4,7 @@ current_fuel = 100;
 fuel_drain = 0;
 //Probably can replace with speed
 
-laser_sfx = sfx_Laser_Gun;
+laser_sfx = sfx_laser_v2;
 max_ammo = 100;
 current_ammo = max_ammo;
 

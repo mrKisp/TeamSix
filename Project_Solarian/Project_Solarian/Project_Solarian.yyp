@@ -51,7 +51,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"sfx_Lazer_v2.m4a","CopyToMask":-1,"filePath":"datafiles","name":"sfx_Lazer_v2.m4a","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -147,6 +149,7 @@
     {"id":{"name":"scr_string_wrap","path":"scripts/scr_string_wrap/scr_string_wrap.yy",},},
     {"id":{"name":"mus_False_Vacuum_Decay_The_Grey_Room_Density___Time","path":"sounds/mus_False_Vacuum_Decay_The_Grey_Room_Density___Time/mus_False_Vacuum_Decay_The_Grey_Room_Density___Time.yy",},},
     {"id":{"name":"mus_Nebula_The_Grey_Room_Density___Time","path":"sounds/mus_Nebula_The_Grey_Room_Density___Time/mus_Nebula_The_Grey_Room_Density___Time.yy",},},
+    {"id":{"name":"mus_New_Morning_TrackTribe","path":"sounds/mus_New_Morning_TrackTribe/mus_New_Morning_TrackTribe.yy",},},
     {"id":{"name":"sfx_codex","path":"sounds/sfx_codex/sfx_codex.yy",},},
     {"id":{"name":"sfx_collect","path":"sounds/sfx_collect/sfx_collect.yy",},},
     {"id":{"name":"sfx_complete","path":"sounds/sfx_complete/sfx_complete.yy",},},
@@ -154,6 +157,7 @@
     {"id":{"name":"sfx_heal","path":"sounds/sfx_heal/sfx_heal.yy",},},
     {"id":{"name":"sfx_jpack","path":"sounds/sfx_jpack/sfx_jpack.yy",},},
     {"id":{"name":"sfx_Laser_Gun","path":"sounds/sfx_Laser_Gun/sfx_Laser_Gun.yy",},},
+    {"id":{"name":"sfx_laser_v2","path":"sounds/sfx_laser_v2/sfx_laser_v2.yy",},},
     {"id":{"name":"sfx_lose","path":"sounds/sfx_lose/sfx_lose.yy",},},
     {"id":{"name":"sfx_player_hurt","path":"sounds/sfx_player_hurt/sfx_player_hurt.yy",},},
     {"id":{"name":"sfx_ship_acc","path":"sounds/sfx_ship_acc/sfx_ship_acc.yy",},},
