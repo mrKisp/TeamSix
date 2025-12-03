@@ -26,6 +26,7 @@ if(instance_exists(obj_Game))
 					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						layer_set_visible("UI_Deposit", false);
 						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Remove for Items for Stage One
@@ -67,6 +68,7 @@ if(instance_exists(obj_Game))
 					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						layer_set_visible("UI_Deposit", false);
 						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Replace with the Removal of Items needed for Stage 2
@@ -107,6 +109,7 @@ if(instance_exists(obj_Game))
 					else show_interact = false;
 					if(keyboard_check_pressed(deposit_key))
 					{
+						layer_set_visible("UI_Deposit", false);
 						show_interact = false;
 						audio_play_sound(sfx_complete,1,false);
 						//Replace with items for Stage 3
@@ -143,6 +146,7 @@ if(instance_exists(obj_Game))
 		if(instance_exists(obj_Game))
 		{
 			obj_Game.player_Won = false;
+		//	layer_set_visible("UI_Finished", false);
 		}
 		//image_index = 0;
 		image_speed = 1;

@@ -61,6 +61,7 @@
   },
   "name":"Project_Solarian",
   "resources":[
+    {"id":{"name":"fnt_context","path":"fonts/fnt_context/fnt_context.yy",},},
     {"id":{"name":"fnt_count","path":"fonts/fnt_count/fnt_count.yy",},},
     {"id":{"name":"fnt_description","path":"fonts/fnt_description/fnt_description.yy",},},
     {"id":{"name":"fnt_gui","path":"fonts/fnt_gui/fnt_gui.yy",},},
@@ -155,6 +156,7 @@
     {"id":{"name":"sfx_codex","path":"sounds/sfx_codex/sfx_codex.yy",},},
     {"id":{"name":"sfx_collect","path":"sounds/sfx_collect/sfx_collect.yy",},},
     {"id":{"name":"sfx_complete","path":"sounds/sfx_complete/sfx_complete.yy",},},
+    {"id":{"name":"sfx_deposit_time","path":"sounds/sfx_deposit_time/sfx_deposit_time.yy",},},
     {"id":{"name":"sfx_dot_damage","path":"sounds/sfx_dot_damage/sfx_dot_damage.yy",},},
     {"id":{"name":"sfx_heal","path":"sounds/sfx_heal/sfx_heal.yy",},},
     {"id":{"name":"sfx_jpack","path":"sounds/sfx_jpack/sfx_jpack.yy",},},

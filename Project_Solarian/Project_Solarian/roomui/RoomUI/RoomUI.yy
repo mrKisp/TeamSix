@@ -2,6 +2,16 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"UI_Finished","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_3","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_65C4866A","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_65C4866A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.46,"scaleY":1.46,"spriteId":{"name":"spr_station_complete_msg","path":"sprites/spr_station_complete_msg/spr_station_complete_msg.yy",},"x":489.0,"y":-126.499985,},
+          ],"flexDirection":0,"height":{"unit":3,"value":200.0,},"justifyContent":1,"name":"FlexPanel_3","nodeColour":4294068320,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":300.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Finished","nodeColour":4282946034,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"UI_Deposit","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"FlexPanel_4","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_1D449C9E","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1D449C9E","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6666666,"scaleY":1.666667,"spriteId":{"name":"spr_deposit_msg","path":"sprites/spr_deposit_msg/spr_deposit_msg.yy",},"x":0.0,"y":-284.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":100.0,},"justifyContent":1,"name":"FlexPanel_4","nodeColour":4291031624,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":300.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_Deposit","nodeColour":4282970814,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UI_HEAL","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
             {"$GMRInstance":"v2","%Name":"inst_76B5EACB","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76B5EACB","objectId":{"name":"obj_Text","path":"objects/obj_Text/obj_Text.yy",},"properties":[
@@ -9,7 +19,7 @@
               ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-584.5,"y":-166.5,},
           ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4288279112,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
         {"$GMRInstance":"v2","%Name":"inst_7C5EFE7C","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C5EFE7C","objectId":{"name":"obj_Textbox","path":"objects/obj_Textbox/obj_Textbox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.15625,"scaleY":2.96875,"x":59.0,"y":128.0,},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_HEAL","nodeColour":4294068427,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_HEAL","nodeColour":4294068427,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UI_ItemNotify","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"Parent","alignItems":2,"alignSelf":3,"children":[
             {"$GMRFlexPanel":"","%Name":"Item","alignItems":2,"children":[
@@ -31,7 +41,7 @@
               ],"flexDirection":0,"height":{"unit":3,"value":31.0,},"justifyContent":1,"name":"Text","nodeColour":4289284338,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":145.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_173B9857","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":true,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_173B9857","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_item_notify_background","path":"sprites/spr_item_notify_background/spr_item_notify_background.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":2,"height":{"unit":1,"value":96.0,},"justifyContent":5,"name":"Parent","nodeColour":4282970744,"positionBottom":{"unit":1,"value":304.0,},"positionRight":{"unit":1,"value":15.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":192.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"locked":true,"name":"UI_PressTab","nodeColour":4282940402,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"locked":true,"name":"UI_PressTab","nodeColour":4282940402,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UI_Inventory","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_2","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Item","alignItems":2,"children":[

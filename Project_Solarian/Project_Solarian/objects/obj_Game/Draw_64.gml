@@ -60,49 +60,53 @@ if(room != rm_Main_menu) {
 //		draw_set_halign(fa_left);
 //		draw_set_colour(c_white);
 //		draw_set_font(fnt_gui);
-		instance_create_layer(300,300,"Background_Stuff", obj_deposit_msg)
+		layer_set_visible("UI_Deposit", true);
 	}
 	// Draw a simple deposit message
 	else if(current_state == SPACE_STATION_STATE.PHASE_2 && global.items.hydrogen >= 20 && global.items.helium >= 10 && global.items.sulfur >= 5)
 	{
-		draw_set_font(fnt_logo);
+//		draw_set_font(fnt_logo);
 	
-		draw_set_color(c_green);
-		draw_set_valign(fa_middle);
-		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
-		draw_set_valign(fa_top);
-		draw_set_halign(fa_left);
-		draw_set_colour(c_white);
-		draw_set_font(fnt_gui);
+//		draw_set_color(c_green);
+//		draw_set_valign(fa_middle);
+//		draw_set_halign(fa_left);
+//		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
+//		draw_set_valign(fa_top);
+//		draw_set_halign(fa_left);
+//		draw_set_colour(c_white);
+//		draw_set_font(fnt_gui);
+		layer_set_visible("UI_Deposit", true);
 	}
 	// Draw a simple deposit message
 	else if(current_state == SPACE_STATION_STATE.PHASE_3 && global.items.sulfur >= 10 && global.items.methane >= 5 && global.items.titanium >= 3)
 	{
-		draw_set_font(fnt_logo);
+//		draw_set_font(fnt_logo);
 	
-		draw_set_color(c_green);
-		draw_set_valign(fa_middle);
-		draw_set_halign(fa_left);
-		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
-		draw_set_valign(fa_top);
-		draw_set_halign(fa_left);
-		draw_set_colour(c_white);
-		draw_set_font(fnt_gui);
+//		draw_set_color(c_green);
+//		draw_set_valign(fa_middle);
+//		draw_set_halign(fa_left);
+//		draw_text(300, 300, "GOOD JOB VOYAGER!\nDeposit at Space Station\nNear Earth!");
+//		draw_set_valign(fa_top);
+//		draw_set_halign(fa_left);
+//		draw_set_colour(c_white);
+//		draw_set_font(fnt_gui);
+		layer_set_visible("UI_Deposit", true);
 	}
 	else if(instance_exists(obj_deposit_msg)) instance_destroy(obj_deposit_msg);
 }
 
 if(player_Won == true)
 {
-	draw_set_font(fnt_logo);
+//	draw_set_font(fnt_logo);
 	
-	draw_set_color(c_green);
-	draw_set_valign(fa_middle);
-	draw_set_halign(fa_left);
-	draw_text(300, 300, "GOOD JOB VOYAGER!\nSpace Station Complete!");
-	draw_set_valign(fa_top);
-	draw_set_halign(fa_left);
-	draw_set_colour(c_white);
-	draw_set_font(fnt_gui);
+//	draw_set_color(c_green);
+//	draw_set_valign(fa_middle);
+//	draw_set_halign(fa_left);
+//	draw_text(300, 300, "GOOD JOB VOYAGER!\nSpace Station Complete!");
+//	draw_set_valign(fa_top);
+//	draw_set_halign(fa_left);
+//	draw_set_colour(c_white);
+//	draw_set_font(fnt_gui);
+layer_set_visible("UI_Finished", true);
 }
+else layer_set_visible("UI_Finished", false);
