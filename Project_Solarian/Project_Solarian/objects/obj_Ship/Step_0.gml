@@ -106,11 +106,6 @@ if(immortal == true && obj_Game.current_state != SPACE_STATION_STATE.PHASE_3)
 	image_alpha = .75
 }
 
-if(obj_Ship.current_hp <= 0)
-{
-	room_goto(rm_Game_Over);
-}
-
 // Bullet shooting logic
 if (mouse_check_button_pressed(shoot_button) && room_get_name(room) == "rm_Solar_System")
 {

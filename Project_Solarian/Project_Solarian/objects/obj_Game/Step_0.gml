@@ -33,7 +33,7 @@ if(keyboard_check(ord("W")) && keyboard_check(ord("I")) && keyboard_check(ord("N
 }
 
 //Adding Easy Escape so that I can quit a playtest faster.
-if(keyboard_check_pressed(vk_backspace))
+if(keyboard_check_pressed(vk_escape))
 {
 	game_end();
 }
@@ -43,10 +43,27 @@ if(instance_exists(obj_Player_Pilot))
 {
 	if(obj_Player_Pilot.current_hp <= 0)
 	{
+		ship_x = 1600;
+		ship_y = 1408;
 		// reset item count so inventory UI is updated
 		global.items = init_items();
 		room_goto(rm_Game_Over)
 		audio_play_sound(sfx_lose,1,false);
+	}
+}
+if(instance_exists(obj_Ship))
+{
+	if(room == rm_Main_menu)
+	{
+		obj_Ship.x = 1120;
+		obj_Ship.y = 256;
+	}
+	
+	if(obj_Ship.current_hp <= 0)
+	{
+		ship_x = 1600;
+		ship_y = 1408;
+		room_goto(rm_Game_Over);
 	}
 }
 

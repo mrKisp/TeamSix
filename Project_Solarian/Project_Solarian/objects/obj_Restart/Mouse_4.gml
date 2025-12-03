@@ -1,22 +1,24 @@
 // Inherit the parent event
 event_inherited();
+
+//Removes old Progress (I think)
+//Can confirm now that it is now resetting things correctly.
+obj_Game.picked_up_first_time = function()
+{
+	return {
+		datapad : false,
+		iron : false,
+		hydrogen : false,
+		helium : false,
+		methane : false,
+		sulfur : false,
+		oxygen : false,
+		titanium : false
+	}
+}
 if(room = rm_Win)
 {
-	//Removes old Progress (I think)
-	//Can confirm now that it is now resetting things correctly.
-	obj_Game.picked_up_first_time = function()
-	{
-		return {
-			datapad : false,
-			iron : false,
-			hydrogen : false,
-			helium : false,
-			methane : false,
-			sulfur : false,
-			oxygen : false,
-			titanium : false
-		}
-	}
+	
 	// Only full restart if player has won
 	instance_destroy(obj_Game);
 }

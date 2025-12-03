@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Titanium",
+  "%Name":"obj_deposit_msg",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Titanium",
+  "name":"obj_deposit_msg",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collectibles",
-    "path":"folders/Objects/Collectibles.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"obj_Collectible_Parent",
-    "path":"objects/obj_Collectible_Parent/obj_Collectible_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_titanium",
-    "path":"sprites/spr_titanium/spr_titanium.yy",
+    "name":"spr_deposit_msg",
+    "path":"sprites/spr_deposit_msg/spr_deposit_msg.yy",
   },
   "spriteMaskId":null,
   "visible":true,

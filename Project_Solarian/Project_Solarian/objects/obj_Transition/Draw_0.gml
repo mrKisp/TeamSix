@@ -21,7 +21,7 @@ if(show_astronaut_interact)
 //Will turn off the mechanical layer but will leave the UI prompt to land. 
 draw_self()
 image_alpha = .75;
-if(show_ship_interact)
+if(show_ship_interact && !obj_Game.player_Won)
 {
 	draw_set_font(fnt_gui); // Assuming you have a font asset named fnt_tooltip
     draw_set_colour(c_black); // Background color of tooltip
