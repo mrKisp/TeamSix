@@ -1,0 +1,1 @@
+This repo contains the project code for SOLARIAN, a serious game project developed for UofU the fall 2025 Alternative Game Development course. Solarian is an educational game seeking to teach players more about the composition of the solar systems' numerous planets!
